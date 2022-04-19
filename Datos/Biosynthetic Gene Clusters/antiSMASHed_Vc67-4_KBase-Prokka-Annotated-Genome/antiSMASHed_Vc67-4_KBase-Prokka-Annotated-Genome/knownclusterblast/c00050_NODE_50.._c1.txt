@@ -1,0 +1,27 @@
+ClusterBlast scores for c00050_NODE_50..
+
+Table of genes, locations, strands and annotations of query cluster:
+cds39514_39967	39514	39967	+	hypothetical protein	
+cds39966_41622	39966	41622	+	hypothetical protein	
+cds41647_42910	41647	42910	+	hypothetical protein	
+cds42988_43342	42988	43342	+	hypothetical protein	
+cds43405_43705	43405	43705	+	hypothetical protein	
+cds43988_44840	43988	44840	+	hypothetical protein	
+cds44836_45028	44836	45028	+	hypothetical protein	
+cds44996_45284	44996	45284	-	hypothetical protein	
+cds45500_45686	45500	45686	+	hypothetical protein	
+cds45705_46284	45705	46284	-	Cell surface glycolipoprotein MPT83	
+cds46620_46800	46620	46800	+	hypothetical protein	
+cds46966_47134	46966	47134	+	hypothetical protein	
+cds47513_48017	47513	48017	+	hypothetical protein	
+cds48110_49181	48110	49181	-	(+)-(1(10)E,4E,6S,7R)-germacradien-6-ol synthase	
+cds49762_53617	49762	53617	-	ESX secretion system protein EccC	
+cds53977_55480	53977	55480	+	hypothetical protein	
+cds55656_55947	55656	55947	+	30S ribosomal protein S15	
+cds56217_58431	56217	58431	+	Polyribonucleotide nucleotidyltransferase	
+
+
+Significant hits: 
+
+
+Details:

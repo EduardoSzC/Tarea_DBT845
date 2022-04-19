@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="50" width="800" viewBox="0 0 800 50" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="1,35 6,30 259,30 259,40 6,40 1,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds39446_41720&lt;/b&gt;&lt;br&gt;Lactococcin-G-processing and transport ATP-binding protein LagD&lt;br&gt;Location: 39446 - 41720" locus_tag="cds39446_41720" class="clusterblast-orf" id="subclusterblast-1_q0_0_all"  />
+<polygon points="259,35 264,30 351,30 351,40 264,40 259,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds41716_42523&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 41716 - 42523" locus_tag="cds41716_42523" class="clusterblast-orf" id="subclusterblast-1_q1_0_all"  />
+<polygon points="360,35 365,30 386,30 386,40 365,40 360,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds42606_42834&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 42606 - 42834" locus_tag="cds42606_42834" class="clusterblast-orf" id="subclusterblast-1_q2_0_all"  />
+<polygon points="472,40 776,40 781,35 776,30 472,30 472,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds43590_46305&lt;/b&gt;&lt;br&gt;Xyloglucanase&lt;br&gt;Location: 43590 - 46305" locus_tag="cds43590_46305" class="clusterblast-orf" id="subclusterblast-1_q3_0_all"  />
+</g>
+</svg>

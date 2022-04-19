@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="0,40 117,40 122,35 117,30 0,30 0,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds24137_25550&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 24137 - 25550" locus_tag="cds24137_25550" class="clusterblast-orf" id="dummy-1_q0_0_all"  />
+<polygon points="125,35 130,30 228,30 228,40 130,40 125,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds25584_26775&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 25584 - 26775" locus_tag="cds25584_26775" class="clusterblast-orf" id="dummy-1_q1_0_all"  />
+<polygon points="237,35 242,30 349,30 349,40 242,40 237,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds26886_28176&lt;/b&gt;&lt;br&gt;Methyl-branched lipid omega-hydroxylase&lt;br&gt;Location: 26886 - 28176" locus_tag="cds26886_28176" class="clusterblast-orf" id="dummy-1_q2_0_all"  />
+<polygon points="365,40 401,40 406,35 401,30 365,30 365,40 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;cds28367_28841&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 28367 - 28841" locus_tag="cds28367_28841" class="clusterblast-orf" id="dummy-1_q3_0_all"  />
+<polygon points="408,40 477,40 482,35 477,30 408,30 408,40 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;cds28861_29722&lt;/b&gt;&lt;br&gt;Tyrosinase&lt;br&gt;Location: 28861 - 29722" locus_tag="cds28861_29722" class="clusterblast-orf" id="dummy-1_q4_0_all"  />
+<polygon points="489,35 494,30 514,30 514,40 494,40 489,35 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds29806_30088&lt;/b&gt;&lt;br&gt;Chaplin-A&lt;br&gt;Location: 29806 - 30088" locus_tag="cds29806_30088" class="clusterblast-orf" id="dummy-1_q5_0_all"  />
+<polygon points="523,35 528,30 624,30 624,40 528,40 523,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds30199_31366&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 30199 - 31366" locus_tag="cds30199_31366" class="clusterblast-orf" id="dummy-1_q6_0_all"  />
+<polygon points="623,35 628,30 681,30 681,40 628,40 623,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds31362_32034&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 31362 - 32034" locus_tag="cds31362_32034" class="clusterblast-orf" id="dummy-1_q7_0_all"  />
+<polygon points="681,35 686,30 780,30 780,40 686,40 681,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds32030_33182&lt;/b&gt;&lt;br&gt;D-inositol-3-phosphate glycosyltransferase&lt;br&gt;Location: 32030 - 33182" locus_tag="cds32030_33182" class="clusterblast-orf" id="dummy-1_q8_0_all"  />
+</g>
+<g label="BGC0000909" description="BGC0000909_c1: melanin (40% of genes show similarity), Other" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0000909/1" target="_blank">BGC0000909</a>:                                                                          melanin (40% of genes show similarity), Other</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="104,90 122,90 127,85 122,80 104,80 104,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;BAB69180.1&lt;/b&gt;&lt;br&gt;putative secreted protein&lt;br&gt;Location: 1 - 264" locus_tag="BAB69180.1" class="clusterblast-orf" id="dummy-1_h1_2_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="195,90 224,90 229,85 224,80 195,80 195,90 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;BAB69181.1&lt;/b&gt;&lt;br&gt;putative tyrosinase co-factor protein&lt;br&gt;Location: 1061 - 1447&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds28367_28841&lt;/b&gt;&lt;br&gt;Percentage identity: 47&lt;br&gt;Percentage coverage: 65&lt;br&gt;BLAST bit score: 77&lt;br&gt;E-value: 2.7e-14" locus_tag="BAB69181.1" class="clusterblast-orf" id="dummy-1_h1_2_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="227,90 297,90 302,85 297,80 227,80 227,90 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;BAB69182.1&lt;/b&gt;&lt;br&gt;putative tyrosinase&lt;br&gt;Location: 1434 - 2297&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds28861_29722&lt;/b&gt;&lt;br&gt;Percentage identity: 58&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 369&lt;br&gt;E-value: 4.8e-102" locus_tag="BAB69182.1" class="clusterblast-orf" id="dummy-1_h1_2_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="350,90 483,90 488,85 483,80 350,80 350,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;BAB69183.1&lt;/b&gt;&lt;br&gt;possible ATP-binding protein&lt;br&gt;Location: 2850 - 4454" locus_tag="BAB69183.1" class="clusterblast-orf" id="dummy-1_h1_2_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="514,90 670,90 675,85 670,80 514,80 514,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;BAB69184.1&lt;/b&gt;&lt;br&gt;putative ATP-binding membrane protein&lt;br&gt;Location: 4757 - 6625" locus_tag="BAB69184.1" class="clusterblast-orf" id="dummy-1_h1_2_4"  />
+</g>
+</svg>

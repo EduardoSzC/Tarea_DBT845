@@ -1,0 +1,17 @@
+ClusterBlast scores for c00040_NODE_40..
+
+Table of genes, locations, strands and annotations of query cluster:
+cds23876_24362	23876	24362	-	hypothetical protein	
+cds24452_27038	24452	27038	+	hypothetical protein	
+cds27487_27691	27487	27691	+	hypothetical protein	
+cds27805_28861	27805	28861	+	hypothetical protein	
+cds28873_30751	28873	30751	+	hypothetical protein	
+cds30802_31195	30802	31195	+	hypothetical protein	
+cds31157_31289	31157	31289	+	hypothetical protein	
+cds31351_32173	31351	32173	+	3-oxoadipate enol-lactonase 2	
+
+
+Significant hits: 
+
+
+Details:

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="50" width="800" viewBox="0 0 800 50" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="0,40 111,40 116,35 111,30 0,30 0,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds51668_53156&lt;/b&gt;&lt;br&gt;Protoporphyrinogen oxidase&lt;br&gt;Location: 51668 - 53156" locus_tag="cds51668_53156" class="clusterblast-orf" id="knownclusterblast-1_q0_0_all"  />
+<polygon points="116,40 167,40 172,35 167,30 116,30 116,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds53160_53874&lt;/b&gt;&lt;br&gt;putative protein/MSMEI 2713&lt;br&gt;Location: 53160 - 53874" locus_tag="cds53160_53874" class="clusterblast-orf" id="knownclusterblast-1_q1_0_all"  />
+<polygon points="193,35 198,30 254,30 254,40 198,40 193,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds54149_54926&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 54149 - 54926" locus_tag="cds54149_54926" class="clusterblast-orf" id="knownclusterblast-1_q2_0_all"  />
+<polygon points="263,35 268,30 340,30 340,40 268,40 263,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds55044_56040&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 55044 - 56040" locus_tag="cds55044_56040" class="clusterblast-orf" id="knownclusterblast-1_q3_0_all"  />
+<polygon points="341,35 346,30 441,30 441,40 346,40 341,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds56046_57339&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 56046 - 57339" locus_tag="cds56046_57339" class="clusterblast-orf" id="knownclusterblast-1_q4_0_all"  />
+<polygon points="481,40 582,40 587,35 582,30 481,30 481,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds57850_59209&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 57850 - 59209" locus_tag="cds57850_59209" class="clusterblast-orf" id="knownclusterblast-1_q5_0_all"  />
+<polygon points="587,35 592,30 649,30 649,40 592,40 587,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds59215_60016&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 59215 - 60016" locus_tag="cds59215_60016" class="clusterblast-orf" id="knownclusterblast-1_q6_0_all"  />
+<polygon points="663,35 668,30 722,30 722,40 668,40 663,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds60185_60950&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 60185 - 60950" locus_tag="cds60185_60950" class="clusterblast-orf" id="knownclusterblast-1_q7_0_all"  />
+<polygon points="728,40 775,40 780,35 775,30 728,30 728,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds61023_61698&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 61023 - 61698" locus_tag="cds61023_61698" class="clusterblast-orf" id="knownclusterblast-1_q8_0_all"  />
+</g>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="47,35 52,30 69,30 69,40 52,40 47,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds61435_62263&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 61435 - 62263" locus_tag="cds61435_62263" class="clusterblast-orf" id="dummy-1_q0_0_all"  />
+<polygon points="73,35 78,30 98,30 98,40 78,40 73,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds62425_63364&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 62425 - 63364" locus_tag="cds62425_63364" class="clusterblast-orf" id="dummy-1_q1_0_all"  />
+<polygon points="114,40 130,40 135,35 130,30 114,30 114,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds63941_64766&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 63941 - 64766" locus_tag="cds63941_64766" class="clusterblast-orf" id="dummy-1_q2_0_all"  />
+<polygon points="136,35 140,30 140,40 136,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds64775_64949&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 64775 - 64949" locus_tag="cds64775_64949" class="clusterblast-orf" id="dummy-1_q3_0_all"  />
+<polygon points="142,35 147,30 159,30 159,40 147,40 142,35 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;cds65016_65637&lt;/b&gt;&lt;br&gt;HTH-type transcriptional regulator PuuR&lt;br&gt;Location: 65016 - 65637" locus_tag="cds65016_65637" class="clusterblast-orf" id="dummy-1_q4_0_all"  />
+<polygon points="160,35 165,30 197,30 197,40 165,40 160,35 " style="fill:#77d815; stroke-width:1; stroke:black; " description="&lt;b&gt;cds65693_67088&lt;/b&gt;&lt;br&gt;Aminotransferase PigE&lt;br&gt;Location: 65693 - 67088" locus_tag="cds65693_67088" class="clusterblast-orf" id="dummy-1_q5_0_all"  />
+<polygon points="197,35 202,30 248,30 248,40 202,40 197,35 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds67084_68995&lt;/b&gt;&lt;br&gt;1-deoxy-D-xylulose-5-phosphate synthase&lt;br&gt;Location: 67084 - 68995" locus_tag="cds67084_68995" class="clusterblast-orf" id="dummy-1_q6_0_all"  />
+<polygon points="252,35 257,30 279,30 279,40 257,40 252,35 " style="fill:#7715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds69168_70188&lt;/b&gt;&lt;br&gt;GTP 3',8-cyclase&lt;br&gt;Location: 69168 - 70188" locus_tag="cds69168_70188" class="clusterblast-orf" id="dummy-1_q7_0_all"  />
+<polygon points="280,35 285,30 297,30 297,40 285,40 280,35 " style="fill:#d87715; stroke-width:1; stroke:black; " description="&lt;b&gt;cds70194_70854&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 70194 - 70854" locus_tag="cds70194_70854" class="clusterblast-orf" id="dummy-1_q8_0_all"  />
+<polygon points="297,35 302,30 351,30 351,40 302,40 297,35 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;cds70858_72871&lt;/b&gt;&lt;br&gt;Squalene--hopene cyclase&lt;br&gt;Location: 70858 - 72871" locus_tag="cds70858_72871" class="clusterblast-orf" id="dummy-1_q9_0_all"  />
+<polygon points="353,35 358,30 383,30 383,40 358,40 353,35 " style="fill:#1577d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds72971_74075&lt;/b&gt;&lt;br&gt;(2E,6E)-farnesyl diphosphate synthase&lt;br&gt;Location: 72971 - 74075" locus_tag="cds72971_74075" class="clusterblast-orf" id="dummy-1_q10_0_all"  />
+<polygon points="383,35 388,30 419,30 419,40 388,40 383,35 " style="fill:#d815d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds74071_75460&lt;/b&gt;&lt;br&gt;Hydroxysqualene dehydroxylase&lt;br&gt;Location: 74071 - 75460" locus_tag="cds74071_75460" class="clusterblast-orf" id="dummy-1_q11_0_all"  />
+<polygon points="422,35 427,30 447,30 447,40 427,40 422,35 " style="fill:#d8d815; stroke-width:1; stroke:black; " description="&lt;b&gt;cds75548_76502&lt;/b&gt;&lt;br&gt;Phytoene synthase&lt;br&gt;Location: 75548 - 76502" locus_tag="cds75548_76502" class="clusterblast-orf" id="dummy-1_q12_0_all"  />
+<polygon points="447,35 452,30 471,30 471,40 452,40 447,35 " style="fill:#15d877; stroke-width:1; stroke:black; " description="&lt;b&gt;cds76498_77416&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 76498 - 77416" locus_tag="cds76498_77416" class="clusterblast-orf" id="dummy-1_q13_0_all"  />
+<polygon points="483,35 488,30 504,30 504,40 488,40 483,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds77840_78626&lt;/b&gt;&lt;br&gt;Vitamin B12 import ATP-binding protein BtuD&lt;br&gt;Location: 77840 - 78626" locus_tag="cds77840_78626" class="clusterblast-orf" id="dummy-1_q14_0_all"  />
+<polygon points="503,35 508,30 528,30 528,40 508,40 503,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds78618_79548&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 78618 - 79548" locus_tag="cds78618_79548" class="clusterblast-orf" id="dummy-1_q15_0_all"  />
+<polygon points="531,35 536,30 554,30 554,40 536,40 531,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds79656_80529&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 79656 - 80529" locus_tag="cds79656_80529" class="clusterblast-orf" id="dummy-1_q16_0_all"  />
+<polygon points="554,35 559,30 575,30 575,40 559,40 554,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds80537_81317&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 80537 - 81317" locus_tag="cds80537_81317" class="clusterblast-orf" id="dummy-1_q17_0_all"  />
+<polygon points="574,35 579,30 603,30 603,40 579,40 574,35 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds81294_82356&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 81294 - 82356" locus_tag="cds81294_82356" class="clusterblast-orf" id="dummy-1_q18_0_all"  />
+<polygon points="602,35 607,30 622,30 622,40 607,40 602,35 " style="fill:#d81577; stroke-width:1; stroke:black; " description="&lt;b&gt;cds82343_83081&lt;/b&gt;&lt;br&gt;Glucose-1-phosphate adenylyltransferase&lt;br&gt;Location: 82343 - 83081" locus_tag="cds82343_83081" class="clusterblast-orf" id="dummy-1_q19_0_all"  />
+<polygon points="622,35 627,30 668,30 668,40 627,40 622,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds83077_84832&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 83077 - 84832" locus_tag="cds83077_84832" class="clusterblast-orf" id="dummy-1_q20_0_all"  />
+<polygon points="677,40 698,40 703,35 698,30 677,30 677,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds85141_86128&lt;/b&gt;&lt;br&gt;UDP-glucose 4-epimerase&lt;br&gt;Location: 85141 - 86128" locus_tag="cds85141_86128" class="clusterblast-orf" id="dummy-1_q21_0_all"  />
+<polygon points="708,40 728,40 733,35 728,30 708,30 708,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds86309_87251&lt;/b&gt;&lt;br&gt;Metal cation efflux system protein CzcD&lt;br&gt;Location: 86309 - 87251" locus_tag="cds86309_87251" class="clusterblast-orf" id="dummy-1_q22_0_all"  />
+</g>
+<g label="BGC0000666" description="BGC0000666_c1: xiamycin A (9% of genes show similarity), Terpene" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0000666/1" target="_blank">BGC0000666</a>:                                                                       xiamycin A (9% of genes show similarity), Terpene</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="0,90 38,90 43,85 38,80 0,80 0,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78065.1&lt;/b&gt;&lt;br&gt;putative Ox3&lt;br&gt;Location: 1 - 1644" locus_tag="AFK78065.1" class="clusterblast-orf" id="dummy-1_h1_4_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="43,90 66,90 71,85 66,80 43,80 43,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78066.1&lt;/b&gt;&lt;br&gt;putative alcohol dehydrogenase zinc-binding domain protein&lt;br&gt;Location: 1641 - 2696" locus_tag="AFK78066.1" class="clusterblast-orf" id="dummy-1_h1_4_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="71,90 95,90 100,85 95,80 71,80 71,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78067.1&lt;/b&gt;&lt;br&gt;XiaA&lt;br&gt;Location: 2693 - 3784" locus_tag="AFK78067.1" class="clusterblast-orf" id="dummy-1_h1_4_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="102,85 107,80 115,80 115,90 107,90 102,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78068.1&lt;/b&gt;&lt;br&gt;XiaB&lt;br&gt;Location: 3843 - 4337" locus_tag="AFK78068.1" class="clusterblast-orf" id="dummy-1_h1_4_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="119,85 124,80 140,80 140,90 124,90 119,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78069.1&lt;/b&gt;&lt;br&gt;XiaC&lt;br&gt;Location: 4502 - 5278" locus_tag="AFK78069.1" class="clusterblast-orf" id="dummy-1_h1_4_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="146,90 167,90 172,85 167,80 146,80 146,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78070.1&lt;/b&gt;&lt;br&gt;XiaD&lt;br&gt;Location: 5512 - 6504" locus_tag="AFK78070.1" class="clusterblast-orf" id="dummy-1_h1_4_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="173,90 216,90 221,85 216,80 173,80 173,90 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78071.1&lt;/b&gt;&lt;br&gt;XiaE&lt;br&gt;Location: 6517 - 8334&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds67084_68995&lt;/b&gt;&lt;br&gt;Percentage identity: 57&lt;br&gt;Percentage coverage: 97&lt;br&gt;BLAST bit score: 670&lt;br&gt;E-value: 2.2e-192" locus_tag="AFK78071.1" class="clusterblast-orf" id="dummy-1_h1_4_6"  />
+</g>
+<g id="a1_007"  >
+<polygon points="221,90 246,90 251,85 246,80 221,80 221,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78072.1&lt;/b&gt;&lt;br&gt;XiaF&lt;br&gt;Location: 8331 - 9482" locus_tag="AFK78072.1" class="clusterblast-orf" id="dummy-1_h1_4_7"  />
+</g>
+<g id="a1_008"  >
+<polygon points="263,90 277,90 282,85 277,80 263,80 263,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78073.1&lt;/b&gt;&lt;br&gt;XiaG&lt;br&gt;Location: 9930 - 10652" locus_tag="AFK78073.1" class="clusterblast-orf" id="dummy-1_h1_4_8"  />
+</g>
+<g id="a1_009"  >
+<polygon points="282,85 287,80 303,80 303,90 287,90 282,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78074.1&lt;/b&gt;&lt;br&gt;terpene cyclase&lt;br&gt;Location: 10645 - 11445" locus_tag="AFK78074.1" class="clusterblast-orf" id="dummy-1_h1_4_9"  />
+</g>
+<g id="a1_0010"  >
+<polygon points="305,85 310,80 337,80 337,90 310,90 305,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78075.1&lt;/b&gt;&lt;br&gt;oxidative terpene cyclase&lt;br&gt;Location: 11512 - 12705" locus_tag="AFK78075.1" class="clusterblast-orf" id="dummy-1_h1_4_10"  />
+</g>
+<g id="a1_0011"  >
+<polygon points="337,85 342,80 347,80 347,90 342,90 337,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78076.1&lt;/b&gt;&lt;br&gt;XiaJ&lt;br&gt;Location: 12708 - 13097" locus_tag="AFK78076.1" class="clusterblast-orf" id="dummy-1_h1_4_11"  />
+</g>
+<g id="a1_0012"  >
+<polygon points="347,85 352,80 395,80 395,90 352,90 347,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78077.1&lt;/b&gt;&lt;br&gt;C,N- and N,N dimerization&lt;br&gt;Location: 13100 - 14890" locus_tag="AFK78077.1" class="clusterblast-orf" id="dummy-1_h1_4_12"  />
+</g>
+<g id="a1_0013"  >
+<polygon points="395,85 400,80 401,80 401,90 400,90 395,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78078.1&lt;/b&gt;&lt;br&gt;XiaL&lt;br&gt;Location: 14890 - 15123" locus_tag="AFK78078.1" class="clusterblast-orf" id="dummy-1_h1_4_13"  />
+</g>
+<g id="a1_0014"  >
+<polygon points="402,85 407,80 433,80 433,90 407,90 402,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78079.1&lt;/b&gt;&lt;br&gt;carboxylase&lt;br&gt;Location: 15149 - 16318" locus_tag="AFK78079.1" class="clusterblast-orf" id="dummy-1_h1_4_14"  />
+</g>
+<g id="a1_0015"  >
+<polygon points="437,85 442,80 464,80 464,90 442,90 437,85 " style="fill:#1577d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78080.1&lt;/b&gt;&lt;br&gt;XiaN&lt;br&gt;Location: 16457 - 17482&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds72971_74075&lt;/b&gt;&lt;br&gt;Percentage identity: 53&lt;br&gt;Percentage coverage: 95&lt;br&gt;BLAST bit score: 319&lt;br&gt;E-value: 7.2e-87" locus_tag="AFK78080.1" class="clusterblast-orf" id="dummy-1_h1_4_15"  />
+</g>
+<g id="a1_0016"  >
+<polygon points="467,85 472,80 524,80 524,90 472,90 467,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78081.1&lt;/b&gt;&lt;br&gt;epoxidase&lt;br&gt;Location: 17610 - 19766" locus_tag="AFK78081.1" class="clusterblast-orf" id="dummy-1_h1_4_16"  />
+</g>
+<g id="a1_0017"  >
+<polygon points="525,85 530,80 552,80 552,90 530,90 525,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78082.1&lt;/b&gt;&lt;br&gt;XiaP&lt;br&gt;Location: 19795 - 20802" locus_tag="AFK78082.1" class="clusterblast-orf" id="dummy-1_h1_4_17"  />
+</g>
+<g id="a1_0018"  >
+<polygon points="554,85 559,80 634,80 634,90 559,90 554,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78083.1&lt;/b&gt;&lt;br&gt;XiaQ&lt;br&gt;Location: 20897 - 23875" locus_tag="AFK78083.1" class="clusterblast-orf" id="dummy-1_h1_4_18"  />
+</g>
+<g id="a1_0019"  >
+<polygon points="637,90 706,90 711,85 706,80 637,80 637,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78084.1&lt;/b&gt;&lt;br&gt;XiaR&lt;br&gt;Location: 24018 - 26792" locus_tag="AFK78084.1" class="clusterblast-orf" id="dummy-1_h1_4_19"  />
+</g>
+<g id="a1_0020"  >
+<polygon points="718,90 724,90 729,85 724,80 718,80 718,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78085.1&lt;/b&gt;&lt;br&gt;putative bacillolysin&lt;br&gt;Location: 27049 - 27486" locus_tag="AFK78085.1" class="clusterblast-orf" id="dummy-1_h1_4_20"  />
+</g>
+<g id="a1_0021"  >
+<polygon points="739,90 775,90 780,85 775,80 739,80 739,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AFK78086.1&lt;/b&gt;&lt;br&gt;putative sodium-coupled permease&lt;br&gt;Location: 27845 - 29371" locus_tag="AFK78086.1" class="clusterblast-orf" id="dummy-1_h1_4_21"  />
+</g>
+</svg>

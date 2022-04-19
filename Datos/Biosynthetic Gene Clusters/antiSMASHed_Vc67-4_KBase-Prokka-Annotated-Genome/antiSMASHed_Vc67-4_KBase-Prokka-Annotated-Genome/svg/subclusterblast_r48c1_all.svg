@@ -1,0 +1,386 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="550" width="800" viewBox="0 0 800 550" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="186,40 186,40 191,35 186,30 186,30 186,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds18113_18665&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 18113 - 18665" locus_tag="cds18113_18665" class="clusterblast-orf" id="subclusterblast-1_q0_0_all"  />
+<polygon points="191,40 195,40 200,35 195,30 191,30 191,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds18714_19635&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 18714 - 19635" locus_tag="cds18714_19635" class="clusterblast-orf" id="subclusterblast-1_q1_0_all"  />
+<polygon points="201,35 206,30 215,30 215,40 206,40 201,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds19700_21182&lt;/b&gt;&lt;br&gt;Spore coat protein A&lt;br&gt;Location: 19700 - 21182" locus_tag="cds19700_21182" class="clusterblast-orf" id="subclusterblast-1_q2_0_all"  />
+<polygon points="217,40 221,40 226,35 221,30 217,30 217,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds21412_22282&lt;/b&gt;&lt;br&gt;27-O-demethylrifamycin SV methyltransferase&lt;br&gt;Location: 21412 - 22282" locus_tag="cds21412_22282" class="clusterblast-orf" id="subclusterblast-1_q3_0_all"  />
+<polygon points="226,40 232,40 237,35 232,30 226,30 226,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds22348_23494&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 22348 - 23494" locus_tag="cds22348_23494" class="clusterblast-orf" id="subclusterblast-1_q4_0_all"  />
+<polygon points="238,35 243,30 252,30 252,40 243,40 238,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds23567_24962&lt;/b&gt;&lt;br&gt;Mitomycin radical oxidase&lt;br&gt;Location: 23567 - 24962" locus_tag="cds23567_24962" class="clusterblast-orf" id="subclusterblast-1_q5_0_all"  />
+<polygon points="251,35 256,30 267,30 267,40 256,40 251,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds24958_26524&lt;/b&gt;&lt;br&gt;2-methoxy-6-polyprenyl-1,4-benzoquinol methylase, mitochondrial&lt;br&gt;Location: 24958 - 26524" locus_tag="cds24958_26524" class="clusterblast-orf" id="subclusterblast-1_q6_0_all"  />
+<polygon points="269,35 272,30 272,40 269,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds26746_27082&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 26746 - 27082" locus_tag="cds26746_27082" class="clusterblast-orf" id="subclusterblast-1_q7_0_all"  />
+<polygon points="273,35 278,30 295,30 295,40 278,40 273,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds27150_29475&lt;/b&gt;&lt;br&gt;Periplasmic nitrate reductase&lt;br&gt;Location: 27150 - 29475" locus_tag="cds27150_29475" class="clusterblast-orf" id="subclusterblast-1_q8_0_all"  />
+<polygon points="296,40 299,40 304,35 299,30 296,30 296,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds29596_30424&lt;/b&gt;&lt;br&gt;Levodione reductase&lt;br&gt;Location: 29596 - 30424" locus_tag="cds29596_30424" class="clusterblast-orf" id="subclusterblast-1_q9_0_all"  />
+<polygon points="305,40 308,40 313,35 308,30 305,30 305,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds30472_31354&lt;/b&gt;&lt;br&gt;F420-dependent glucose-6-phosphate dehydrogenase&lt;br&gt;Location: 30472 - 31354" locus_tag="cds30472_31354" class="clusterblast-orf" id="subclusterblast-1_q10_0_all"  />
+<polygon points="315,35 320,30 329,30 329,40 320,40 315,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds31534_33049&lt;/b&gt;&lt;br&gt;Aclacinomycin-N/aclacinomycin-A oxidase&lt;br&gt;Location: 31534 - 33049" locus_tag="cds31534_33049" class="clusterblast-orf" id="subclusterblast-1_q11_0_all"  />
+<polygon points="331,35 336,30 345,30 345,40 336,40 331,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds33232_34657&lt;/b&gt;&lt;br&gt;sn-glycerol-3-phosphate-binding periplasmic protein UgpB&lt;br&gt;Location: 33232 - 34657" locus_tag="cds33232_34657" class="clusterblast-orf" id="subclusterblast-1_q12_0_all"  />
+<polygon points="348,40 355,40 360,35 355,30 348,30 348,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds34927_36169&lt;/b&gt;&lt;br&gt;Flavin-dependent monooxygenase, oxygenase subunit HsaA&lt;br&gt;Location: 34927 - 36169" locus_tag="cds34927_36169" class="clusterblast-orf" id="subclusterblast-1_q13_0_all"  />
+<polygon points="361,40 369,40 374,35 369,30 361,30 361,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds36277_37717&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 36277 - 37717" locus_tag="cds36277_37717" class="clusterblast-orf" id="subclusterblast-1_q14_0_all"  />
+<polygon points="375,40 397,40 402,35 397,30 375,30 375,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds37748_40562&lt;/b&gt;&lt;br&gt;Dimodular nonribosomal peptide synthase&lt;br&gt;Location: 37748 - 40562" locus_tag="cds37748_40562" class="clusterblast-orf" id="subclusterblast-1_q15_0_all"  />
+<polygon points="403,40 413,40 418,35 413,30 403,30 403,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds40635_42261&lt;/b&gt;&lt;br&gt;MIO-dependent tyrosine 2,3-aminomutase&lt;br&gt;Location: 40635 - 42261" locus_tag="cds40635_42261" class="clusterblast-orf" id="subclusterblast-1_q16_0_all"  />
+<polygon points="419,40 427,40 432,35 427,30 419,30 419,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds42368_43712&lt;/b&gt;&lt;br&gt;Linear gramicidin synthase subunit B&lt;br&gt;Location: 42368 - 43712" locus_tag="cds42368_43712" class="clusterblast-orf" id="subclusterblast-1_q17_0_all"  />
+<polygon points="433,35 438,30 448,30 448,40 438,40 433,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds43769_45353&lt;/b&gt;&lt;br&gt;4-nitrophenol 2-monooxygenase, oxygenase component&lt;br&gt;Location: 43769 - 45353" locus_tag="cds43769_45353" class="clusterblast-orf" id="subclusterblast-1_q18_0_all"  />
+<polygon points="450,40 457,40 462,35 457,30 450,30 450,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds45596_46781&lt;/b&gt;&lt;br&gt;Flavin-dependent monooxygenase, oxygenase subunit HsaA&lt;br&gt;Location: 45596 - 46781" locus_tag="cds45596_46781" class="clusterblast-orf" id="subclusterblast-1_q19_0_all"  />
+<polygon points="462,40 462,40 467,35 462,30 462,30 462,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds46844_47279&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 46844 - 47279" locus_tag="cds46844_47279" class="clusterblast-orf" id="subclusterblast-1_q20_0_all"  />
+<polygon points="467,35 472,30 479,30 479,40 472,40 467,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds47364_48612&lt;/b&gt;&lt;br&gt;2-hydroxy-5-methyl-1-naphthoate 7-hydroxylase&lt;br&gt;Location: 47364 - 48612" locus_tag="cds47364_48612" class="clusterblast-orf" id="subclusterblast-1_q21_0_all"  />
+<polygon points="480,35 485,30 489,30 489,40 485,40 480,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds48705_49569&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 48705 - 49569" locus_tag="cds48705_49569" class="clusterblast-orf" id="subclusterblast-1_q22_0_all"  />
+<polygon points="489,35 492,30 492,40 489,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds49631_49904&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 49631 - 49904" locus_tag="cds49631_49904" class="clusterblast-orf" id="subclusterblast-1_q23_0_all"  />
+<polygon points="493,35 498,30 502,30 502,40 498,40 493,35 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;cds50037_50910&lt;/b&gt;&lt;br&gt;Glucose-1-phosphate thymidylyltransferase 1&lt;br&gt;Location: 50037 - 50910" locus_tag="cds50037_50910" class="clusterblast-orf" id="subclusterblast-1_q24_0_all"  />
+<polygon points="502,35 507,30 514,30 514,40 507,40 502,35 " style="fill:#4dd815; stroke-width:1; stroke:black; " description="&lt;b&gt;cds50964_52185&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 50964 - 52185" locus_tag="cds50964_52185" class="clusterblast-orf" id="subclusterblast-1_q25_0_all"  />
+<polygon points="515,35 520,30 527,30 527,40 520,40 515,35 " style="fill:#1585d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds52342_53581&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 52342 - 53581" locus_tag="cds52342_53581" class="clusterblast-orf" id="subclusterblast-1_q26_0_all"  />
+<polygon points="528,35 533,30 540,30 540,40 533,40 528,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds53600_54893&lt;/b&gt;&lt;br&gt;Aclacinomycin-T 2-deoxy-L-fucose transferase&lt;br&gt;Location: 53600 - 54893" locus_tag="cds53600_54893" class="clusterblast-orf" id="subclusterblast-1_q27_0_all"  />
+<polygon points="541,35 546,30 551,30 551,40 546,40 541,35 " style="fill:#d815bc; stroke-width:1; stroke:black; " description="&lt;b&gt;cds54963_56073&lt;/b&gt;&lt;br&gt;dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucose transaminase&lt;br&gt;Location: 54963 - 56073" locus_tag="cds54963_56073" class="clusterblast-orf" id="subclusterblast-1_q28_0_all"  />
+<polygon points="553,35 558,30 567,30 567,40 558,40 553,35 " style="fill:#d8bc15; stroke-width:1; stroke:black; " description="&lt;b&gt;cds56275_57670&lt;/b&gt;&lt;br&gt;dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-dehydratase&lt;br&gt;Location: 56275 - 57670" locus_tag="cds56275_57670" class="clusterblast-orf" id="subclusterblast-1_q29_0_all"  />
+<polygon points="570,40 574,40 579,35 574,30 570,30 570,40 " style="fill:#15d885; stroke-width:1; stroke:black; " description="&lt;b&gt;cds57984_58992&lt;/b&gt;&lt;br&gt;dTDP-glucose 4,6-dehydratase&lt;br&gt;Location: 57984 - 58992" locus_tag="cds57984_58992" class="clusterblast-orf" id="subclusterblast-1_q30_0_all"  />
+<polygon points="580,35 585,30 594,30 594,40 585,40 580,35 " style="fill:#4d15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds59038_60466&lt;/b&gt;&lt;br&gt;UDP-N-acetyl-D-glucosamine 6-dehydrogenase&lt;br&gt;Location: 59038 - 60466" locus_tag="cds59038_60466" class="clusterblast-orf" id="subclusterblast-1_q31_0_all"  />
+</g>
+<g label="AF497482" description="AF497482_c3: calicheamicin 4 nucleotide sugars (22% of genes show similarity), sugar" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+AF497482_c3: calicheamicin 4 nucleotide sugars (22% of genes show similarity), sugar</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="0,85 5,80 5,80 5,90 5,90 0,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS1&lt;/b&gt;&lt;br&gt;CalS1&lt;br&gt;Location: 9415 - 9987" locus_tag="AF497482_3_calS1" class="clusterblast-orf" id="subclusterblast-1_all_1_1_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="7,90 11,90 16,85 11,80 7,80 7,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS2&lt;/b&gt;&lt;br&gt;CalS2&lt;br&gt;Location: 10158 - 11081" locus_tag="AF497482_3_calS2" class="clusterblast-orf" id="subclusterblast-1_all_1_1_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="16,90 20,90 25,85 20,80 16,80 16,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS3&lt;/b&gt;&lt;br&gt;CalS3&lt;br&gt;Location: 11078 - 12109" locus_tag="AF497482_3_calS3" class="clusterblast-orf" id="subclusterblast-1_all_1_1_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="32,90 38,90 43,85 38,80 32,80 32,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS4&lt;/b&gt;&lt;br&gt;CalS4&lt;br&gt;Location: 12764 - 13918" locus_tag="AF497482_3_calS4" class="clusterblast-orf" id="subclusterblast-1_all_1_1_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="54,85 59,80 64,80 64,90 59,90 54,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS5&lt;/b&gt;&lt;br&gt;CalS5&lt;br&gt;Location: 15028 - 16092" locus_tag="AF497482_3_calS5" class="clusterblast-orf" id="subclusterblast-1_all_1_1_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="72,85 77,80 79,80 79,90 77,90 72,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS6&lt;/b&gt;&lt;br&gt;CalS6&lt;br&gt;Location: 16890 - 17672" locus_tag="AF497482_3_calS6" class="clusterblast-orf" id="subclusterblast-1_all_1_1_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="243,85 248,80 252,80 252,90 248,90 243,85 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS7&lt;/b&gt;&lt;br&gt;CalS7&lt;br&gt;Location: 34687 - 35580&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds50037_50910&lt;/b&gt;&lt;br&gt;Percentage identity: 49&lt;br&gt;Percentage coverage: 98&lt;br&gt;BLAST bit score: 254&lt;br&gt;E-value: 6.57e-86" locus_tag="AF497482_3_calS7" class="clusterblast-orf" id="subclusterblast-1_all_1_1_6"  />
+</g>
+<g id="a1_007"  >
+<polygon points="387,90 395,90 400,85 395,80 387,80 387,90 " style="fill:#4d15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS8&lt;/b&gt;&lt;br&gt;CalS8&lt;br&gt;Location: 49636 - 50997&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds59038_60466&lt;/b&gt;&lt;br&gt;Percentage identity: 53&lt;br&gt;Percentage coverage: 95&lt;br&gt;BLAST bit score: 440&lt;br&gt;E-value: 8.79e-154" locus_tag="AF497482_3_calS8" class="clusterblast-orf" id="subclusterblast-1_all_1_1_7"  />
+</g>
+<g id="a1_008"  >
+<polygon points="400,90 405,90 410,85 405,80 400,80 400,90 " style="fill:#15d885; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS9&lt;/b&gt;&lt;br&gt;CalS9&lt;br&gt;Location: 51004 - 51993&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds57984_58992&lt;/b&gt;&lt;br&gt;Percentage identity: 60&lt;br&gt;Percentage coverage: 98&lt;br&gt;BLAST bit score: 355&lt;br&gt;E-value: 1.88e-124" locus_tag="AF497482_3_calS9" class="clusterblast-orf" id="subclusterblast-1_all_1_1_8"  />
+</g>
+<g id="a1_009"  >
+<polygon points="412,85 417,80 419,80 419,90 417,90 412,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS10&lt;/b&gt;&lt;br&gt;CalS10&lt;br&gt;Location: 52213 - 52950" locus_tag="AF497482_3_calS10" class="clusterblast-orf" id="subclusterblast-1_all_1_1_9"  />
+</g>
+<g id="a1_0010"  >
+<polygon points="424,85 429,80 436,80 436,90 429,90 424,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calG1&lt;/b&gt;&lt;br&gt;CalG1&lt;br&gt;Location: 53511 - 54689" locus_tag="AF497482_3_calG1" class="clusterblast-orf" id="subclusterblast-1_all_1_1_10"  />
+</g>
+<g id="a1_0011"  >
+<polygon points="438,90 440,90 445,85 440,80 438,80 438,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS11&lt;/b&gt;&lt;br&gt;CalS11&lt;br&gt;Location: 54904 - 55677" locus_tag="AF497482_3_calS11" class="clusterblast-orf" id="subclusterblast-1_all_1_1_11"  />
+</g>
+<g id="a1_0012"  >
+<polygon points="562,85 567,80 574,80 574,90 567,90 562,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calG2&lt;/b&gt;&lt;br&gt;CalG2&lt;br&gt;Location: 67788 - 68981" locus_tag="AF497482_3_calG2" class="clusterblast-orf" id="subclusterblast-1_all_1_1_12"  />
+</g>
+<g id="a1_0013"  >
+<polygon points="574,85 579,80 584,80 584,90 579,90 574,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS12&lt;/b&gt;&lt;br&gt;CalS12&lt;br&gt;Location: 69032 - 70024" locus_tag="AF497482_3_calS12" class="clusterblast-orf" id="subclusterblast-1_all_1_1_13"  />
+</g>
+<g id="a1_0014"  >
+<polygon points="586,90 591,90 596,85 591,80 586,80 586,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS13&lt;/b&gt;&lt;br&gt;CalS13&lt;br&gt;Location: 70221 - 71351" locus_tag="AF497482_3_calS13" class="clusterblast-orf" id="subclusterblast-1_all_1_1_14"  />
+</g>
+<g id="a1_0015"  >
+<polygon points="597,90 603,90 608,85 603,80 597,80 597,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calG3&lt;/b&gt;&lt;br&gt;CalG3&lt;br&gt;Location: 71392 - 72522" locus_tag="AF497482_3_calG3" class="clusterblast-orf" id="subclusterblast-1_all_1_1_15"  />
+</g>
+<g id="a1_0016"  >
+<polygon points="703,90 712,90 717,85 712,80 703,80 703,90 " style="fill:#d8bc15; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calS14&lt;/b&gt;&lt;br&gt;CalS14&lt;br&gt;Location: 82456 - 83886&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds56275_57670&lt;/b&gt;&lt;br&gt;Percentage identity: 51&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 445&lt;br&gt;E-value: 2.12e-155" locus_tag="AF497482_3_calS14" class="clusterblast-orf" id="subclusterblast-1_all_1_1_16"  />
+</g>
+<g id="a1_0017"  >
+<polygon points="768,85 773,80 780,80 780,90 773,90 768,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_3_calG4&lt;/b&gt;&lt;br&gt;CalG4&lt;br&gt;Location: 89143 - 90348" locus_tag="AF497482_3_calG4" class="clusterblast-orf" id="subclusterblast-1_all_1_1_17"  />
+</g>
+<g label="AY271660" description="AY271660_c3: maduropeptin aminosugar (madurose) (60% of genes show similarity), sugar" class="clusterblast-cluster"  >
+<text x="5" y="120" class="clusterblast-acc"  >
+AY271660_c3: maduropeptin aminosugar (madurose) (60% of genes show similarity), sugar</text>
+<line x1="10" y1="135" x2="778.0" y2="135" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="340,140 347,140 352,135 347,130 340,130 340,140 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AY271660_3_mdpA5&lt;/b&gt;&lt;br&gt;aminotransferase&lt;br&gt;Location: 22661 - 21450" locus_tag="AY271660_3_mdpA5" class="clusterblast-orf" id="subclusterblast-1_all_1_2_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="352,140 360,140 365,135 360,130 352,130 352,140 " style="fill:#4d15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AY271660_3_mdpA2&lt;/b&gt;&lt;br&gt;NDP glucose dehydrogenase&lt;br&gt;Location: 21438 - 20095&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds59038_60466&lt;/b&gt;&lt;br&gt;Percentage identity: 65&lt;br&gt;Percentage coverage: 92&lt;br&gt;BLAST bit score: 545&lt;br&gt;E-value: 0.0" locus_tag="AY271660_3_mdpA2" class="clusterblast-orf" id="subclusterblast-1_all_1_2_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="365,140 369,140 374,135 369,130 365,130 365,140 " style="fill:#15d885; stroke-width:1; stroke:black; " description="&lt;b&gt;AY271660_3_mdpA3&lt;/b&gt;&lt;br&gt;glucuronic acid decarboxylase&lt;br&gt;Location: 20092 - 19106&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds57984_58992&lt;/b&gt;&lt;br&gt;Percentage identity: 66&lt;br&gt;Percentage coverage: 98&lt;br&gt;BLAST bit score: 428&lt;br&gt;E-value: 5.65e-153" locus_tag="AY271660_3_mdpA3" class="clusterblast-orf" id="subclusterblast-1_all_1_2_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="391,135 396,130 402,130 402,140 396,140 391,135 " style="fill:#4dd815; stroke-width:1; stroke:black; " description="&lt;b&gt;AY271660_3_mdpA4&lt;/b&gt;&lt;br&gt;C-methyltransferase&lt;br&gt;Location: 17389 - 16169&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds50964_52185&lt;/b&gt;&lt;br&gt;Percentage identity: 54&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 434&lt;br&gt;E-value: 3.24e-153" locus_tag="AY271660_3_mdpA4" class="clusterblast-orf" id="subclusterblast-1_all_1_2_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="429,135 434,130 439,130 439,140 434,140 429,135 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AY271660_3_mdpA1&lt;/b&gt;&lt;br&gt;dTDP-1-glucose synthase&lt;br&gt;Location: 13396 - 12362" locus_tag="AY271660_3_mdpA1" class="clusterblast-orf" id="subclusterblast-1_all_1_2_4"  />
+</g>
+<g label="DQ297453" description="DQ297453_c2: AT2433 aminopentose (37% of genes show similarity), sugar" class="clusterblast-cluster"  >
+<text x="5" y="170" class="clusterblast-acc"  >
+DQ297453_c2: AT2433 aminopentose (37% of genes show similarity), sugar</text>
+<line x1="10" y1="185" x2="778.0" y2="185" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="334,190 340,190 345,185 340,180 334,180 334,190 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;DQ297453_2_atmS13&lt;/b&gt;&lt;br&gt;putative aminotransferase&lt;br&gt;Location: 23473 - 24582" locus_tag="DQ297453_2_atmS13" class="clusterblast-orf" id="subclusterblast-1_all_1_3_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="345,190 350,190 355,185 350,180 345,180 345,190 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;DQ297453_2_atmS7&lt;/b&gt;&lt;br&gt;putative sugar activating enzyme&lt;br&gt;Location: 24588 - 25646" locus_tag="DQ297453_2_atmS7" class="clusterblast-orf" id="subclusterblast-1_all_1_3_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="356,185 361,180 364,180 364,190 361,190 356,185 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;DQ297453_2_atmM&lt;/b&gt;&lt;br&gt;D-glucose O-methyltransferase&lt;br&gt;Location: 25737 - 26543" locus_tag="DQ297453_2_atmM" class="clusterblast-orf" id="subclusterblast-1_all_1_3_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="366,190 366,190 371,185 366,180 366,180 366,190 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;DQ297453_2_atmM1&lt;/b&gt;&lt;br&gt;N-methyltransferase&lt;br&gt;Location: 26768 - 27355" locus_tag="DQ297453_2_atmM1" class="clusterblast-orf" id="subclusterblast-1_all_1_3_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="384,185 389,180 394,180 394,190 389,190 384,185 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;DQ297453_2_atmS12&lt;/b&gt;&lt;br&gt;putative dTDP-4-keto-6-deoxy-L-hexose 2,3-reductase&lt;br&gt;Location: 28668 - 29651" locus_tag="DQ297453_2_atmS12" class="clusterblast-orf" id="subclusterblast-1_all_1_3_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="394,185 399,180 408,180 408,190 399,190 394,185 " style="fill:#d8bc15; stroke-width:1; stroke:black; " description="&lt;b&gt;DQ297453_2_atmS14&lt;/b&gt;&lt;br&gt;probable NDP-hexose-2,3-dehydratase&lt;br&gt;Location: 29665 - 31116&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds56275_57670&lt;/b&gt;&lt;br&gt;Percentage identity: 48&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 401&lt;br&gt;E-value: 3.42e-138" locus_tag="DQ297453_2_atmS14" class="clusterblast-orf" id="subclusterblast-1_all_1_3_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="422,190 430,190 435,185 430,180 422,180 422,190 " style="fill:#4d15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;DQ297453_2_atmS8&lt;/b&gt;&lt;br&gt;putative UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase&lt;br&gt;Location: 32652 - 34004&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds59038_60466&lt;/b&gt;&lt;br&gt;Percentage identity: 60&lt;br&gt;Percentage coverage: 95&lt;br&gt;BLAST bit score: 541&lt;br&gt;E-value: 0.0" locus_tag="DQ297453_2_atmS8" class="clusterblast-orf" id="subclusterblast-1_all_1_3_6"  />
+</g>
+<g id="a1_007"  >
+<polygon points="436,190 440,190 445,185 440,180 436,180 436,190 " style="fill:#15d885; stroke-width:1; stroke:black; " description="&lt;b&gt;DQ297453_2_atmS9&lt;/b&gt;&lt;br&gt;putative UDP-glucose 4-epimerase&lt;br&gt;Location: 34009 - 34998&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds57984_58992&lt;/b&gt;&lt;br&gt;Percentage identity: 63&lt;br&gt;Percentage coverage: 97&lt;br&gt;BLAST bit score: 415&lt;br&gt;E-value: 7.39e-148" locus_tag="DQ297453_2_atmS9" class="clusterblast-orf" id="subclusterblast-1_all_1_3_7"  />
+</g>
+<g label="AB088119" description="AB088119_c2: staurosporine deoxysugar (20% of genes show similarity), sugar" class="clusterblast-cluster"  >
+<text x="5" y="220" class="clusterblast-acc"  >
+AB088119_c2: staurosporine deoxysugar (20% of genes show similarity), sugar</text>
+<line x1="10" y1="235" x2="778.0" y2="235" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="303,235 308,230 311,230 311,240 308,240 303,235 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB088119_2_staMB&lt;/b&gt;&lt;br&gt;methyltransferase&lt;br&gt;Location: 20702 - 19860" locus_tag="AB088119_2_staMB" class="clusterblast-orf" id="subclusterblast-1_all_1_4_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="313,235 318,230 319,230 319,240 318,240 313,235 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB088119_2_staE&lt;/b&gt;&lt;br&gt;3,5-epimerase&lt;br&gt;Location: 19733 - 19113" locus_tag="AB088119_2_staE" class="clusterblast-orf" id="subclusterblast-1_all_1_4_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="319,235 324,230 330,230 330,240 324,240 319,235 " style="fill:#d815bc; stroke-width:1; stroke:black; " description="&lt;b&gt;AB088119_2_staI&lt;/b&gt;&lt;br&gt;aminotransferase&lt;br&gt;Location: 19057 - 17948&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds54963_56073&lt;/b&gt;&lt;br&gt;Percentage identity: 72&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 547&lt;br&gt;E-value: 0.0" locus_tag="AB088119_2_staI" class="clusterblast-orf" id="subclusterblast-1_all_1_4_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="331,235 336,230 340,230 340,240 336,240 331,235 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB088119_2_staK&lt;/b&gt;&lt;br&gt;4-ketoreductase&lt;br&gt;Location: 17877 - 16891" locus_tag="AB088119_2_staK" class="clusterblast-orf" id="subclusterblast-1_all_1_4_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="340,235 345,230 354,230 354,240 345,240 340,235 " style="fill:#d8bc15; stroke-width:1; stroke:black; " description="&lt;b&gt;AB088119_2_staJ&lt;/b&gt;&lt;br&gt;2,3-dehydratase&lt;br&gt;Location: 16889 - 15471&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds56275_57670&lt;/b&gt;&lt;br&gt;Percentage identity: 48&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 400&lt;br&gt;E-value: 7.01e-138" locus_tag="AB088119_2_staJ" class="clusterblast-orf" id="subclusterblast-1_all_1_4_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="354,235 359,230 362,230 362,240 359,240 354,235 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB088119_2_staMA&lt;/b&gt;&lt;br&gt;methyltransferase&lt;br&gt;Location: 15451 - 14621" locus_tag="AB088119_2_staMA" class="clusterblast-orf" id="subclusterblast-1_all_1_4_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="425,240 433,240 438,235 433,230 425,230 425,240 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB088119_2_staG&lt;/b&gt;&lt;br&gt;N-glycosyltransferase&lt;br&gt;Location: 8081 - 6741" locus_tag="AB088119_2_staG" class="clusterblast-orf" id="subclusterblast-1_all_1_4_6"  />
+</g>
+<g id="a1_007"  >
+<polygon points="439,240 446,240 451,235 446,230 439,230 439,240 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB088119_2_staN&lt;/b&gt;&lt;br&gt;cytochrome P450 StaN&lt;br&gt;Location: 6594 - 5410" locus_tag="AB088119_2_staN" class="clusterblast-orf" id="subclusterblast-1_all_1_4_7"  />
+</g>
+<g id="a1_008"  >
+<polygon points="456,240 461,240 466,235 461,230 456,230 456,240 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB088119_2_staA&lt;/b&gt;&lt;br&gt;glucose-1-phosphate thymidyltransferase&lt;br&gt;Location: 4883 - 3831" locus_tag="AB088119_2_staA" class="clusterblast-orf" id="subclusterblast-1_all_1_4_8"  />
+</g>
+<g id="a1_009"  >
+<polygon points="466,240 471,240 476,235 471,230 466,230 466,240 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB088119_2_staB&lt;/b&gt;&lt;br&gt;dTDP-glucose 4,6-dehydratase&lt;br&gt;Location: 3834 - 2830" locus_tag="AB088119_2_staB" class="clusterblast-orf" id="subclusterblast-1_all_1_4_9"  />
+</g>
+<g label="HE589771" description="HE589771_c4: vancomycin glucose / vancosamine (28% of genes show similarity), sugar" class="clusterblast-cluster"  >
+<text x="5" y="270" class="clusterblast-acc"  >
+HE589771_c4: vancomycin glucose / vancosamine (28% of genes show similarity), sugar</text>
+<line x1="10" y1="285" x2="778.0" y2="285" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="297,285 302,280 303,280 303,290 302,290 297,285 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;HE589771_4_vcaD&lt;/b&gt;&lt;br&gt;dTDP-4-keto-6-deoxyglucose 3,5-epimerase&lt;br&gt;Location: 62064 - 61447" locus_tag="HE589771_4_vcaD" class="clusterblast-orf" id="subclusterblast-1_all_1_5_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="304,285 309,280 314,280 314,290 309,290 304,285 " style="fill:#d815bc; stroke-width:1; stroke:black; " description="&lt;b&gt;HE589771_4_vcaB&lt;/b&gt;&lt;br&gt;putative C-3 aminotransferase&lt;br&gt;Location: 61423 - 60314&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds54963_56073&lt;/b&gt;&lt;br&gt;Percentage identity: 72&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 560&lt;br&gt;E-value: 0.0" locus_tag="HE589771_4_vcaB" class="clusterblast-orf" id="subclusterblast-1_all_1_5_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="314,285 319,280 324,280 324,290 319,290 314,285 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;HE589771_4_vcaE&lt;/b&gt;&lt;br&gt;NAD-dependent epimerase dehydratase&lt;br&gt;Location: 60317 - 59340" locus_tag="HE589771_4_vcaE" class="clusterblast-orf" id="subclusterblast-1_all_1_5_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="324,285 329,280 337,280 337,290 329,290 324,285 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;HE589771_4_vcaA&lt;/b&gt;&lt;br&gt;putative NDP-hexose 2,3-dehydratase&lt;br&gt;Location: 59338 - 57998" locus_tag="HE589771_4_vcaA" class="clusterblast-orf" id="subclusterblast-1_all_1_5_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="445,285 450,280 457,280 457,290 450,290 445,285 " style="fill:#4dd815; stroke-width:1; stroke:black; " description="&lt;b&gt;HE589771_4_vcaC&lt;/b&gt;&lt;br&gt;putative C-3 methyltransferase&lt;br&gt;Location: 46726 - 45500&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds50964_52185&lt;/b&gt;&lt;br&gt;Percentage identity: 60&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 508&lt;br&gt;E-value: 0.0" locus_tag="HE589771_4_vcaC" class="clusterblast-orf" id="subclusterblast-1_all_1_5_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="457,285 462,280 469,280 469,290 462,290 457,285 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;HE589771_4_gtfE&lt;/b&gt;&lt;br&gt;glycosyltransferase E&lt;br&gt;Location: 45457 - 44225" locus_tag="HE589771_4_gtfE" class="clusterblast-orf" id="subclusterblast-1_all_1_5_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="470,285 475,280 482,280 482,290 475,290 470,285 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;HE589771_4_gtfD&lt;/b&gt;&lt;br&gt;glycosyltransferase D&lt;br&gt;Location: 44160 - 42940" locus_tag="HE589771_4_gtfD" class="clusterblast-orf" id="subclusterblast-1_all_1_5_6"  />
+</g>
+<g label="Y16952" description="Y16952_c4: balhimycin glucose / vancosamine (25% of genes show similarity), sugar" class="clusterblast-cluster"  >
+<text x="5" y="320" class="clusterblast-acc"  >
+Y16952_c4: balhimycin glucose / vancosamine (25% of genes show similarity), sugar</text>
+<line x1="10" y1="335" x2="778.0" y2="335" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="294,335 299,330 300,330 300,340 299,340 294,335 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;Y16952_4_dvaD&lt;/b&gt;&lt;br&gt;putative 3,5 epimerase&lt;br&gt;Location: 59961 - 59344" locus_tag="Y16952_4_dvaD" class="clusterblast-orf" id="subclusterblast-1_all_1_6_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="300,335 305,330 311,330 311,340 305,340 300,335 " style="fill:#d815bc; stroke-width:1; stroke:black; " description="&lt;b&gt;Y16952_4_dvaB&lt;/b&gt;&lt;br&gt;putative C-3 amino transferase&lt;br&gt;Location: 59320 - 58211&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds54963_56073&lt;/b&gt;&lt;br&gt;Percentage identity: 71&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 530&lt;br&gt;E-value: 0.0" locus_tag="Y16952_4_dvaB" class="clusterblast-orf" id="subclusterblast-1_all_1_6_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="311,335 314,330 314,340 311,335 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;Y16952_4_dvaE&lt;/b&gt;&lt;br&gt;putative 4-ketoreductase&lt;br&gt;Location: 58214 - 57915" locus_tag="Y16952_4_dvaE" class="clusterblast-orf" id="subclusterblast-1_all_1_6_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="314,335 319,330 328,330 328,340 319,340 314,335 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;Y16952_4_dvaA&lt;/b&gt;&lt;br&gt;putative NDP-hexose 2,3-dehydratase&lt;br&gt;Location: 57913 - 56501" locus_tag="Y16952_4_dvaA" class="clusterblast-orf" id="subclusterblast-1_all_1_6_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="435,335 440,330 447,330 447,340 440,340 435,335 " style="fill:#4dd815; stroke-width:1; stroke:black; " description="&lt;b&gt;Y16952_4_dvaC&lt;/b&gt;&lt;br&gt;putative C-3 methyl transferase&lt;br&gt;Location: 45313 - 44087&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds50964_52185&lt;/b&gt;&lt;br&gt;Percentage identity: 61&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 508&lt;br&gt;E-value: 0.0" locus_tag="Y16952_4_dvaC" class="clusterblast-orf" id="subclusterblast-1_all_1_6_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="448,335 453,330 459,330 459,340 453,340 448,335 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;Y16952_4_bgtfC&lt;/b&gt;&lt;br&gt;glycosyltransferase&lt;br&gt;Location: 44053 - 42824" locus_tag="Y16952_4_bgtfC" class="clusterblast-orf" id="subclusterblast-1_all_1_6_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="461,335 466,330 473,330 473,340 466,340 461,335 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;Y16952_4_bgtfB&lt;/b&gt;&lt;br&gt;glycosyltransferase&lt;br&gt;Location: 42676 - 41447" locus_tag="Y16952_4_bgtfB" class="clusterblast-orf" id="subclusterblast-1_all_1_6_6"  />
+</g>
+<g id="a1_007"  >
+<polygon points="473,335 478,330 485,330 485,340 478,340 473,335 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;Y16952_4_bgtfA&lt;/b&gt;&lt;br&gt;glycosyltransferase&lt;br&gt;Location: 41382 - 40192" locus_tag="Y16952_4_bgtfA" class="clusterblast-orf" id="subclusterblast-1_all_1_6_7"  />
+</g>
+<g label="FJ483966" description="FJ483966_c3: polyketomycin beta-D-amicetose / alpha-L-axenose (18% of genes show similarity), sugar" class="clusterblast-cluster"  >
+<text x="5" y="370" class="clusterblast-acc"  >
+FJ483966_c3: polyketomycin beta-D-amicetose / alpha-L-axenose (18% of genes show similarity), sugar</text>
+<line x1="10" y1="385" x2="778.0" y2="385" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="153,385 158,380 163,380 163,390 158,390 153,385 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokS9&lt;/b&gt;&lt;br&gt;PokS9&lt;br&gt;Location: 50393 - 49434" locus_tag="FJ483966_3_pokS9" class="clusterblast-orf" id="subclusterblast-1_all_1_7_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="162,385 167,380 168,380 168,390 167,390 162,385 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokS7&lt;/b&gt;&lt;br&gt;PokS7&lt;br&gt;Location: 49437 - 48823" locus_tag="FJ483966_3_pokS7" class="clusterblast-orf" id="subclusterblast-1_all_1_7_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="306,385 311,380 316,380 316,390 311,390 306,385 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokS2&lt;/b&gt;&lt;br&gt;PokS2&lt;br&gt;Location: 34519 - 33530" locus_tag="FJ483966_3_pokS2" class="clusterblast-orf" id="subclusterblast-1_all_1_7_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="316,385 321,380 326,380 326,390 321,390 316,385 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokS1&lt;/b&gt;&lt;br&gt;PokS1&lt;br&gt;Location: 33533 - 32469" locus_tag="FJ483966_3_pokS1" class="clusterblast-orf" id="subclusterblast-1_all_1_7_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="477,390 486,390 491,385 486,380 477,380 477,390 " style="fill:#d8bc15; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokS3&lt;/b&gt;&lt;br&gt;PokS3&lt;br&gt;Location: 16772 - 15342&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds56275_57670&lt;/b&gt;&lt;br&gt;Percentage identity: 50&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 438&lt;br&gt;E-value: 9.62e-153" locus_tag="FJ483966_3_pokS3" class="clusterblast-orf" id="subclusterblast-1_all_1_7_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="491,390 496,390 501,385 496,380 491,380 491,390 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokS4&lt;/b&gt;&lt;br&gt;PokS4&lt;br&gt;Location: 15348 - 14347" locus_tag="FJ483966_3_pokS4" class="clusterblast-orf" id="subclusterblast-1_all_1_7_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="518,385 523,380 530,380 530,390 523,390 518,385 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokS5&lt;/b&gt;&lt;br&gt;PokS5&lt;br&gt;Location: 12594 - 11296" locus_tag="FJ483966_3_pokS5" class="clusterblast-orf" id="subclusterblast-1_all_1_7_6"  />
+</g>
+<g id="a1_007"  >
+<polygon points="530,385 535,380 540,380 540,390 535,390 530,385 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokS6&lt;/b&gt;&lt;br&gt;PokS6&lt;br&gt;Location: 11291 - 10263" locus_tag="FJ483966_3_pokS6" class="clusterblast-orf" id="subclusterblast-1_all_1_7_7"  />
+</g>
+<g id="a1_008"  >
+<polygon points="540,385 545,380 552,380 552,390 545,390 540,385 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokGT1&lt;/b&gt;&lt;br&gt;PokGT1&lt;br&gt;Location: 10266 - 9073" locus_tag="FJ483966_3_pokGT1" class="clusterblast-orf" id="subclusterblast-1_all_1_7_8"  />
+</g>
+<g id="a1_009"  >
+<polygon points="571,390 577,390 582,385 577,380 571,380 571,390 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokGT2&lt;/b&gt;&lt;br&gt;PokGT2&lt;br&gt;Location: 7088 - 5940" locus_tag="FJ483966_3_pokGT2" class="clusterblast-orf" id="subclusterblast-1_all_1_7_9"  />
+</g>
+<g id="a1_0010"  >
+<polygon points="614,385 619,380 626,380 626,390 619,390 614,385 " style="fill:#1585d8; stroke-width:1; stroke:black; " description="&lt;b&gt;FJ483966_3_pokS8&lt;/b&gt;&lt;br&gt;PokS8&lt;br&gt;Location: 2619 - 1372&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds52342_53581&lt;/b&gt;&lt;br&gt;Percentage identity: 62&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 496&lt;br&gt;E-value: 3.7e-177" locus_tag="FJ483966_3_pokS8" class="clusterblast-orf" id="subclusterblast-1_all_1_7_10"  />
+</g>
+<g label="AB103463" description="AB103463_c2: medermycin aminodeoxysugar (angolosamine) (28% of genes show similarity), sugar" class="clusterblast-cluster"  >
+<text x="5" y="420" class="clusterblast-acc"  >
+AB103463_c2: medermycin aminodeoxysugar (angolosamine) (28% of genes show similarity), sugar</text>
+<line x1="10" y1="435" x2="778.0" y2="435" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="329,435 334,430 340,430 340,440 334,440 329,435 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB103463_2_med-ORF8&lt;/b&gt;&lt;br&gt;C-glycosyl transferase&lt;br&gt;Location: 27546 - 26416" locus_tag="AB103463_2_med-ORF8" class="clusterblast-orf" id="subclusterblast-1_all_1_8_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="389,435 394,430 398,430 398,440 394,440 389,435 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB103463_2_med-ORF14&lt;/b&gt;&lt;br&gt;NDP-4-keto-6-deoxyhexose reductase&lt;br&gt;Location: 21308 - 20331" locus_tag="AB103463_2_med-ORF14" class="clusterblast-orf" id="subclusterblast-1_all_1_8_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="398,435 403,430 405,430 405,440 403,440 398,435 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB103463_2_med-ORF15&lt;/b&gt;&lt;br&gt;N-methyl transferase&lt;br&gt;Location: 20334 - 19612" locus_tag="AB103463_2_med-ORF15" class="clusterblast-orf" id="subclusterblast-1_all_1_8_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="406,435 411,430 420,430 420,440 411,440 406,435 " style="fill:#d8bc15; stroke-width:1; stroke:black; " description="&lt;b&gt;AB103463_2_med-ORF16&lt;/b&gt;&lt;br&gt;NDP-deoxyglucose-2,3-dehydratase&lt;br&gt;Location: 19561 - 18122&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds56275_57670&lt;/b&gt;&lt;br&gt;Percentage identity: 47&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 393&lt;br&gt;E-value: 3.6e-135" locus_tag="AB103463_2_med-ORF16" class="clusterblast-orf" id="subclusterblast-1_all_1_8_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="420,435 425,430 429,430 429,440 425,440 420,435 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB103463_2_med-ORF17&lt;/b&gt;&lt;br&gt;NDP-glucose-4,6-dehydratase&lt;br&gt;Location: 18125 - 17124" locus_tag="AB103463_2_med-ORF17" class="clusterblast-orf" id="subclusterblast-1_all_1_8_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="429,435 434,430 439,430 439,440 434,440 429,435 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AB103463_2_med-ORF18&lt;/b&gt;&lt;br&gt;NDP-1-glucose synthase&lt;br&gt;Location: 17127 - 16063" locus_tag="AB103463_2_med-ORF18" class="clusterblast-orf" id="subclusterblast-1_all_1_8_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="439,435 444,430 450,430 450,440 444,440 439,435 " style="fill:#d815bc; stroke-width:1; stroke:black; " description="&lt;b&gt;AB103463_2_med-ORF20&lt;/b&gt;&lt;br&gt;NDP-deoxyhexose 3-aminotransferase&lt;br&gt;Location: 16066 - 14936&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds54963_56073&lt;/b&gt;&lt;br&gt;Percentage identity: 71&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 536&lt;br&gt;E-value: 0.0" locus_tag="AB103463_2_med-ORF20" class="clusterblast-orf" id="subclusterblast-1_all_1_8_6"  />
+</g>
+<g label="AF187532" description="AF187532_c1: nogalamycin nogalamine (25% of genes show similarity), sugar" class="clusterblast-cluster"  >
+<text x="5" y="470" class="clusterblast-acc"  >
+AF187532_c1: nogalamycin nogalamine (25% of genes show similarity), sugar</text>
+<line x1="10" y1="485" x2="778.0" y2="485" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="320,485 325,480 329,480 329,490 325,490 320,485 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF187532_1_snogG&lt;/b&gt;&lt;br&gt;SnogG&lt;br&gt;Location: 1615 - 2601" locus_tag="AF187532_1_snogG" class="clusterblast-orf" id="subclusterblast-1_all_1_9_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="329,485 334,480 335,480 335,490 334,490 329,485 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF187532_1_snogF&lt;/b&gt;&lt;br&gt;SnogF&lt;br&gt;Location: 2598 - 3203" locus_tag="AF187532_1_snogF" class="clusterblast-orf" id="subclusterblast-1_all_1_9_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="379,490 384,490 389,485 384,480 379,480 379,490 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF187532_1_snogK&lt;/b&gt;&lt;br&gt;putative dTDP-glucose-4,6-dehydratase&lt;br&gt;Location: 7769 - 8821" locus_tag="AF187532_1_snogK" class="clusterblast-orf" id="subclusterblast-1_all_1_9_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="411,485 416,480 423,480 423,490 416,490 411,485 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF187532_1_snogN&lt;/b&gt;&lt;br&gt;SnogN&lt;br&gt;Location: 11041 - 12267" locus_tag="AF187532_1_snogN" class="clusterblast-orf" id="subclusterblast-1_all_1_9_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="423,490 425,490 430,485 425,480 423,480 423,490 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF187532_1_snogX&lt;/b&gt;&lt;br&gt;SnogX&lt;br&gt;Location: 12300 - 13037" locus_tag="AF187532_1_snogX" class="clusterblast-orf" id="subclusterblast-1_all_1_9_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="432,490 434,490 439,485 434,480 432,480 432,490 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF187532_1_snogA&lt;/b&gt;&lt;br&gt;putative amino methylase&lt;br&gt;Location: 13244 - 13960" locus_tag="AF187532_1_snogA" class="clusterblast-orf" id="subclusterblast-1_all_1_9_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="439,485 444,480 448,480 448,490 444,490 439,485 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;AF187532_1_snogJ&lt;/b&gt;&lt;br&gt;putative dTDP-glucose synthase&lt;br&gt;Location: 13993 - 14874&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds50037_50910&lt;/b&gt;&lt;br&gt;Percentage identity: 64&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 381&lt;br&gt;E-value: 5.46e-136" locus_tag="AF187532_1_snogJ" class="clusterblast-orf" id="subclusterblast-1_all_1_9_6"  />
+</g>
+<g id="a1_007"  >
+<polygon points="449,490 454,490 459,485 454,480 449,480 449,490 " style="fill:#d815bc; stroke-width:1; stroke:black; " description="&lt;b&gt;AF187532_1_snogI&lt;/b&gt;&lt;br&gt;putative aminotransferase&lt;br&gt;Location: 15039 - 16065&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds54963_56073&lt;/b&gt;&lt;br&gt;Percentage identity: 73&lt;br&gt;Percentage coverage: 93&lt;br&gt;BLAST bit score: 514&lt;br&gt;E-value: 0.0" locus_tag="AF187532_1_snogI" class="clusterblast-orf" id="subclusterblast-1_all_1_9_7"  />
+</g>
+<g label="AF333038" description="AF333038_c2: avilamycin D-olivose, 2-deoxy-D-evalose, 4-O-methyl-D-fucose (11% of genes show similarity), sugar" class="clusterblast-cluster"  >
+<text x="5" y="520" class="clusterblast-acc"  >
+AF333038_c2: avilamycin D-olivose, 2-deoxy-D-evalose, 4-O-methyl-D-fucose (11% of genes show similarity), sugar</text>
+<line x1="10" y1="535" x2="778.0" y2="535" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="179,535 183,530 183,540 179,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviZ2&lt;/b&gt;&lt;br&gt;not annotated&lt;br&gt;Location: 51717 - 51298" locus_tag="AF333038_2_aviZ2" class="clusterblast-orf" id="subclusterblast-1_all_1_10_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="186,535 191,530 195,530 195,540 191,540 186,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviZ3&lt;/b&gt;&lt;br&gt;not annotated&lt;br&gt;Location: 50935 - 49961" locus_tag="AF333038_2_aviZ3" class="clusterblast-orf" id="subclusterblast-1_all_1_10_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="195,535 200,530 205,530 205,540 200,540 195,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviT&lt;/b&gt;&lt;br&gt;not annotated&lt;br&gt;Location: 49968 - 48961" locus_tag="AF333038_2_aviT" class="clusterblast-orf" id="subclusterblast-1_all_1_10_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="205,535 210,530 219,530 219,540 210,540 205,535 " style="fill:#d8bc15; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviS&lt;/b&gt;&lt;br&gt;not annotated&lt;br&gt;Location: 48953 - 47553&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds56275_57670&lt;/b&gt;&lt;br&gt;Percentage identity: 49&lt;br&gt;Percentage coverage: 93&lt;br&gt;BLAST bit score: 407&lt;br&gt;E-value: 8.89e-141" locus_tag="AF333038_2_aviS" class="clusterblast-orf" id="subclusterblast-1_all_1_10_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="219,535 224,530 228,530 228,540 224,540 219,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviE3&lt;/b&gt;&lt;br&gt;not annotated&lt;br&gt;Location: 47553 - 46609" locus_tag="AF333038_2_aviE3" class="clusterblast-orf" id="subclusterblast-1_all_1_10_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="266,535 271,530 275,530 275,540 271,540 266,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviQ3&lt;/b&gt;&lt;br&gt;not annotated&lt;br&gt;Location: 42646 - 41717" locus_tag="AF333038_2_aviQ3" class="clusterblast-orf" id="subclusterblast-1_all_1_10_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="275,535 280,530 282,530 282,540 280,540 275,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviP&lt;/b&gt;&lt;br&gt;not annotated&lt;br&gt;Location: 41717 - 40998" locus_tag="AF333038_2_aviP" class="clusterblast-orf" id="subclusterblast-1_all_1_10_6"  />
+</g>
+<g id="a1_007"  >
+<polygon points="291,535 296,530 301,530 301,540 296,540 291,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviGT4&lt;/b&gt;&lt;br&gt;putative glycosyltransferase&lt;br&gt;Location: 39999 - 38971" locus_tag="AF333038_2_aviGT4" class="clusterblast-orf" id="subclusterblast-1_all_1_10_7"  />
+</g>
+<g id="a1_008"  >
+<polygon points="301,535 306,530 311,530 311,540 306,540 301,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviGT3&lt;/b&gt;&lt;br&gt;putative glycosyltransferase&lt;br&gt;Location: 38971 - 37955" locus_tag="AF333038_2_aviGT3" class="clusterblast-orf" id="subclusterblast-1_all_1_10_8"  />
+</g>
+<g id="a1_009"  >
+<polygon points="383,535 388,530 393,530 393,540 388,540 383,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviZ1&lt;/b&gt;&lt;br&gt;putative oxidoreductase&lt;br&gt;Location: 30500 - 29508" locus_tag="AF333038_2_aviZ1" class="clusterblast-orf" id="subclusterblast-1_all_1_10_9"  />
+</g>
+<g id="a1_0010"  >
+<polygon points="399,535 404,530 409,530 409,540 404,540 399,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviE2&lt;/b&gt;&lt;br&gt;putative NDP-glucose 4,6-dehydratase&lt;br&gt;Location: 28792 - 27779" locus_tag="AF333038_2_aviE2" class="clusterblast-orf" id="subclusterblast-1_all_1_10_10"  />
+</g>
+<g id="a1_0011"  >
+<polygon points="409,535 414,530 422,530 422,540 414,540 409,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviGT1&lt;/b&gt;&lt;br&gt;putative glycosyltransferase&lt;br&gt;Location: 27782 - 26490" locus_tag="AF333038_2_aviGT1" class="clusterblast-orf" id="subclusterblast-1_all_1_10_11"  />
+</g>
+<g id="a1_0012"  >
+<polygon points="436,535 441,530 446,530 446,540 441,540 436,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviQ2&lt;/b&gt;&lt;br&gt;putative NDP-glucose 4-epimerase&lt;br&gt;Location: 24953 - 23925" locus_tag="AF333038_2_aviQ2" class="clusterblast-orf" id="subclusterblast-1_all_1_10_12"  />
+</g>
+<g id="a1_0013"  >
+<polygon points="447,535 452,530 457,530 457,540 452,540 447,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviE1&lt;/b&gt;&lt;br&gt;putative dTDP-glucose 4,6-dehydratase&lt;br&gt;Location: 23877 - 22810" locus_tag="AF333038_2_aviE1" class="clusterblast-orf" id="subclusterblast-1_all_1_10_13"  />
+</g>
+<g id="a1_0014"  >
+<polygon points="458,535 463,530 468,530 468,540 463,540 458,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviD&lt;/b&gt;&lt;br&gt;putative dTDP glucose synthetase&lt;br&gt;Location: 22759 - 21692" locus_tag="AF333038_2_aviD" class="clusterblast-orf" id="subclusterblast-1_all_1_10_14"  />
+</g>
+<g id="a1_0015"  >
+<polygon points="532,535 537,530 544,530 544,540 537,540 532,535 " style="fill:#1585d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviG1&lt;/b&gt;&lt;br&gt;methyltransferase&lt;br&gt;Location: 15007 - 13784&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds52342_53581&lt;/b&gt;&lt;br&gt;Percentage identity: 57&lt;br&gt;Percentage coverage: 98&lt;br&gt;BLAST bit score: 451&lt;br&gt;E-value: 7.97e-160" locus_tag="AF333038_2_aviG1" class="clusterblast-orf" id="subclusterblast-1_all_1_10_15"  />
+</g>
+<g id="a1_0016"  >
+<polygon points="591,535 596,530 600,530 600,540 596,540 591,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF333038_2_aviQ1&lt;/b&gt;&lt;br&gt;putative UDP-glucose 4-epimerase&lt;br&gt;Location: 8903 - 7935" locus_tag="AF333038_2_aviQ1" class="clusterblast-orf" id="subclusterblast-1_all_1_10_16"  />
+</g>
+</svg>

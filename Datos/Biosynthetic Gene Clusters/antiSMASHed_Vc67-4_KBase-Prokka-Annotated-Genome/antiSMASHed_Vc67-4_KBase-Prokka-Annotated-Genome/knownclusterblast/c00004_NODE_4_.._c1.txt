@@ -1,0 +1,42 @@
+ClusterBlast scores for c00004_NODE_4_..
+
+Table of genes, locations, strands and annotations of query cluster:
+cds199961_201224	199961	201224	-	hypothetical protein	
+cds201857_202442	201857	202442	+	hypothetical protein	
+cds202755_203589	202755	203589	-	Non-haem bromoperoxidase BPO-A2	
+cds203696_204536	203696	204536	-	hypothetical protein	
+cds204921_206067	204921	206067	-	hypothetical protein	
+cds206250_206724	206250	206724	-	DNA protection during starvation protein 2	
+cds207267_207609	207267	207609	+	hypothetical protein	
+cds208210_208792	208210	208792	-	ECF RNA polymerase sigma factor SigL	
+cds208851_209685	208851	209685	-	Non-haem bromoperoxidase BPO-A2	
+cds209814_212565	209814	212565	-	hypothetical protein	
+cds213132_214590	213132	214590	-	Gamma-glutamylputrescine oxidoreductase	
+cds214646_215717	214646	215717	-	hypothetical protein	
+cds215894_217631	215894	217631	-	hypothetical protein	
+cds217719_218598	217719	218598	-	hypothetical protein	
+cds218594_219833	218594	219833	-	Aurachin C monooxygenase/isomerase	
+cds219834_226995	219834	226995	-	Dimodular nonribosomal peptide synthase	
+cds227348_228056	227348	228056	+	Putative aminoacrylate hydrolase RutD	
+cds228186_229395	228186	229395	-	Purine ribonucleoside efflux pump NepI	
+cds229517_230417	229517	230417	+	HTH-type transcriptional regulator HdfR	
+cds231259_231730	231259	231730	-	hypothetical protein	
+cds232036_232792	232036	232792	-	Oxidoreductase UcpA	
+cds233434_233551	233434	233551	+	hypothetical protein	
+cds233718_234090	233718	234090	-	hypothetical protein	
+cds234134_235052	234134	235052	-	Soluble epoxide hydrolase	
+cds235317_236427	235317	236427	+	N-ethylmaleimide reductase	
+cds236723_237476	236723	237476	+	putative oxidoreductase YghA	
+cds238123_238579	238123	238579	+	Putative HTH-type transcriptional regulator YwnA	
+cds239416_240868	239416	240868	+	putative MFS-type transporter EfpA	
+cds241314_241920	241314	241920	-	hypothetical protein	
+cds242556_242928	242556	242928	-	hypothetical protein	
+cds243116_244232	243116	244232	-	putative protein YhaZ	
+cds244245_244548	244245	244548	-	hypothetical protein	
+cds244588_245644	244588	245644	-	1-deoxyxylulose-5-phosphate synthase YajO	
+
+
+Significant hits: 
+
+
+Details:

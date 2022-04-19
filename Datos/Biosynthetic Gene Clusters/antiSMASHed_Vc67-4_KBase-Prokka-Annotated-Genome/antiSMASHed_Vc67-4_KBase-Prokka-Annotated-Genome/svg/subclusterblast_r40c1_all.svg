@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="50" width="800" viewBox="0 0 800 50" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="0,35 5,30 46,30 46,40 5,40 0,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds23876_24362&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 23876 - 24362" locus_tag="cds23876_24362" class="clusterblast-orf" id="subclusterblast-1_q0_0_all"  />
+<polygon points="55,40 293,40 298,35 293,30 55,30 55,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds24452_27038&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 24452 - 27038" locus_tag="cds24452_27038" class="clusterblast-orf" id="subclusterblast-1_q1_0_all"  />
+<polygon points="340,40 354,40 359,35 354,30 340,30 340,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds27487_27691&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 27487 - 27691" locus_tag="cds27487_27691" class="clusterblast-orf" id="subclusterblast-1_q2_0_all"  />
+<polygon points="370,40 464,40 469,35 464,30 370,30 370,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds27805_28861&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 27805 - 28861" locus_tag="cds27805_28861" class="clusterblast-orf" id="subclusterblast-1_q3_0_all"  />
+<polygon points="470,40 642,40 647,35 642,30 470,30 470,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds28873_30751&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 28873 - 30751" locus_tag="cds28873_30751" class="clusterblast-orf" id="subclusterblast-1_q4_0_all"  />
+<polygon points="652,40 683,40 688,35 683,30 652,30 652,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds30802_31195&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 30802 - 31195" locus_tag="cds30802_31195" class="clusterblast-orf" id="subclusterblast-1_q5_0_all"  />
+<polygon points="685,40 692,40 697,35 692,30 685,30 685,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds31157_31289&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 31157 - 31289" locus_tag="cds31157_31289" class="clusterblast-orf" id="subclusterblast-1_q6_0_all"  />
+<polygon points="703,40 775,40 780,35 775,30 703,30 703,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds31351_32173&lt;/b&gt;&lt;br&gt;3-oxoadipate enol-lactonase 2&lt;br&gt;Location: 31351 - 32173" locus_tag="cds31351_32173" class="clusterblast-orf" id="subclusterblast-1_q7_0_all"  />
+</g>
+</svg>

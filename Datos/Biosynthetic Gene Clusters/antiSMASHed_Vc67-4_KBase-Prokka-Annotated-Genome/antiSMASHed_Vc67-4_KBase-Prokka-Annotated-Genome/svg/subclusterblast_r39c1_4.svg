@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="263,40 267,40 272,35 267,30 263,30 263,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds188_1109&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 188 - 1109" locus_tag="cds188_1109" class="clusterblast-orf" id="dummy-1_q0_0_all"  />
+<polygon points="270,35 275,30 276,30 276,40 275,40 270,35 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;cds970_1519&lt;/b&gt;&lt;br&gt;FMN reductase (NADH) NtaB&lt;br&gt;Location: 970 - 1519" locus_tag="cds970_1519" class="clusterblast-orf" id="dummy-1_q1_0_all"  />
+<polygon points="276,35 280,30 280,40 276,35 " style="fill:#77d815; stroke-width:1; stroke:black; " description="&lt;b&gt;cds1515_1989&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 1515 - 1989" locus_tag="cds1515_1989" class="clusterblast-orf" id="dummy-1_q2_0_all"  />
+<polygon points="280,35 285,30 336,30 336,40 285,40 280,35 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds1985_7793&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 1985 - 7793" locus_tag="cds1985_7793" class="clusterblast-orf" id="dummy-1_q3_0_all"  />
+<polygon points="336,35 341,30 346,30 346,40 341,40 336,35 " style="fill:#7715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds7789_8875&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 7789 - 8875" locus_tag="cds7789_8875" class="clusterblast-orf" id="dummy-1_q4_0_all"  />
+<polygon points="346,35 351,30 365,30 365,40 351,40 346,35 " style="fill:#d8a715; stroke-width:1; stroke:black; " description="&lt;b&gt;cds8876_10805&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 8876 - 10805" locus_tag="cds8876_10805" class="clusterblast-orf" id="dummy-1_q5_0_all"  />
+<polygon points="365,35 370,30 374,30 374,40 370,40 365,35 " style="fill:#15d846; stroke-width:1; stroke:black; " description="&lt;b&gt;cds10801_11788&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 10801 - 11788" locus_tag="cds10801_11788" class="clusterblast-orf" id="dummy-1_q6_0_all"  />
+<polygon points="375,35 380,30 384,30 384,40 380,40 375,35 " style="fill:#1546d8; stroke-width:1; stroke:black; " description="&lt;b&gt;cds11883_12864&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 11883 - 12864" locus_tag="cds11883_12864" class="clusterblast-orf" id="dummy-1_q7_0_all"  />
+<polygon points="386,35 390,30 390,40 386,35 " style="fill:#d815a7; stroke-width:1; stroke:black; " description="&lt;b&gt;cds13002_13446&lt;/b&gt;&lt;br&gt;putative HTH-type transcriptional regulator&lt;br&gt;Location: 13002 - 13446" locus_tag="cds13002_13446" class="clusterblast-orf" id="dummy-1_q8_0_all"  />
+<polygon points="391,40 392,40 397,35 392,30 391,30 391,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds13584_14148&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 13584 - 14148" locus_tag="cds13584_14148" class="clusterblast-orf" id="dummy-1_q9_0_all"  />
+<polygon points="397,40 401,35 397,30 397,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds14158_14632&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 14158 - 14632" locus_tag="cds14158_14632" class="clusterblast-orf" id="dummy-1_q10_0_all"  />
+<polygon points="404,35 409,30 416,30 416,40 409,40 404,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds14902_16138&lt;/b&gt;&lt;br&gt;IS701 family transposase ISSav4&lt;br&gt;Location: 14902 - 16138" locus_tag="cds14902_16138" class="clusterblast-orf" id="dummy-1_q11_0_all"  />
+<polygon points="419,40 419,40 424,35 419,30 419,30 419,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds16456_17056&lt;/b&gt;&lt;br&gt;A-factor receptor protein&lt;br&gt;Location: 16456 - 17056" locus_tag="cds16456_17056" class="clusterblast-orf" id="dummy-1_q12_0_all"  />
+<polygon points="426,35 431,30 433,30 433,40 431,40 426,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds17181_17952&lt;/b&gt;&lt;br&gt;A-factor type gamma-butyrolactone 1'-reductase (1S-forming)&lt;br&gt;Location: 17181 - 17952" locus_tag="cds17181_17952" class="clusterblast-orf" id="dummy-1_q13_0_all"  />
+<polygon points="435,35 440,30 441,30 441,40 440,40 435,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds18115_18766&lt;/b&gt;&lt;br&gt;A-factor receptor protein&lt;br&gt;Location: 18115 - 18766" locus_tag="cds18115_18766" class="clusterblast-orf" id="dummy-1_q14_0_all"  />
+<polygon points="442,40 446,40 451,35 446,30 442,30 442,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds18885_19803&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 18885 - 19803" locus_tag="cds18885_19803" class="clusterblast-orf" id="dummy-1_q15_0_all"  />
+<polygon points="454,40 463,40 468,35 463,30 454,30 454,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds20145_21585&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 20145 - 21585" locus_tag="cds20145_21585" class="clusterblast-orf" id="dummy-1_q16_0_all"  />
+<polygon points="470,35 474,30 474,40 470,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds21807_22245&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 21807 - 22245" locus_tag="cds21807_22245" class="clusterblast-orf" id="dummy-1_q17_0_all"  />
+<polygon points="475,35 480,30 483,30 483,40 480,40 475,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds22347_23226&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 22347 - 23226" locus_tag="cds22347_23226" class="clusterblast-orf" id="dummy-1_q18_0_all"  />
+<polygon points="487,35 491,30 491,40 487,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds23601_24003&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 23601 - 24003" locus_tag="cds23601_24003" class="clusterblast-orf" id="dummy-1_q19_0_all"  />
+<polygon points="491,35 496,30 506,30 506,40 496,40 491,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds23999_25532&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 23999 - 25532" locus_tag="cds23999_25532" class="clusterblast-orf" id="dummy-1_q20_0_all"  />
+<polygon points="505,35 510,30 516,30 516,40 510,40 505,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;cds25521_26649&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 25521 - 26649" locus_tag="cds25521_26649" class="clusterblast-orf" id="dummy-1_q21_0_all"  />
+</g>
+<g label="AF497482" description="AF497482_c2: calicheamicin enediyne (30% of genes show similarity), enediyne" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+AF497482_c2: calicheamicin enediyne (30% of genes show similarity), enediyne</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="0,90 7,90 12,85 7,80 0,80 0,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calE1&lt;/b&gt;&lt;br&gt;CalE1&lt;br&gt;Location: 3723 - 5048" locus_tag="AF497482_2_calE1" class="clusterblast-orf" id="dummy-1_h1_4_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="99,90 103,90 108,85 103,80 99,80 99,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calE2&lt;/b&gt;&lt;br&gt;CalE2&lt;br&gt;Location: 14103 - 15017" locus_tag="AF497482_2_calE2" class="clusterblast-orf" id="dummy-1_h1_4_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="154,90 158,90 163,85 158,80 154,80 154,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calE3&lt;/b&gt;&lt;br&gt;CalE3&lt;br&gt;Location: 19901 - 20794" locus_tag="AF497482_2_calE3" class="clusterblast-orf" id="dummy-1_h1_4_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="266,85 271,80 278,80 278,90 271,90 266,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calE4&lt;/b&gt;&lt;br&gt;CalE4&lt;br&gt;Location: 31589 - 32797" locus_tag="AF497482_2_calE4" class="clusterblast-orf" id="dummy-1_h1_4_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="286,85 291,80 295,80 295,90 291,90 286,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calE5&lt;/b&gt;&lt;br&gt;CalE5&lt;br&gt;Location: 33669 - 34553" locus_tag="AF497482_2_calE5" class="clusterblast-orf" id="dummy-1_h1_4_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="320,85 325,80 331,80 331,90 325,90 320,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calE6&lt;/b&gt;&lt;br&gt;CalE6&lt;br&gt;Location: 37168 - 38313" locus_tag="AF497482_2_calE6" class="clusterblast-orf" id="dummy-1_h1_4_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="330,85 335,80 335,80 335,90 335,90 330,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calE7&lt;/b&gt;&lt;br&gt;CalE7&lt;br&gt;Location: 38310 - 38756" locus_tag="AF497482_2_calE7" class="clusterblast-orf" id="dummy-1_h1_4_6"  />
+</g>
+<g id="a1_007"  >
+<polygon points="335,85 340,80 390,80 390,90 340,90 335,85 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calE8&lt;/b&gt;&lt;br&gt;CalE8&lt;br&gt;Location: 38753 - 44512&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds1985_7793&lt;/b&gt;&lt;br&gt;Percentage identity: 56&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1793&lt;br&gt;E-value: 0.0" locus_tag="AF497482_2_calE8" class="clusterblast-orf" id="dummy-1_h1_4_7"  />
+</g>
+<g id="a1_008"  >
+<polygon points="390,85 395,80 399,80 399,90 395,90 390,85 " style="fill:#7715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calT3&lt;/b&gt;&lt;br&gt;CalT3&lt;br&gt;Location: 44509 - 45474&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds7789_8875&lt;/b&gt;&lt;br&gt;Percentage identity: 70&lt;br&gt;Percentage coverage: 76&lt;br&gt;BLAST bit score: 413&lt;br&gt;E-value: 7.1e-147" locus_tag="AF497482_2_calT3" class="clusterblast-orf" id="dummy-1_h1_4_8"  />
+</g>
+<g id="a1_009"  >
+<polygon points="399,85 404,80 418,80 418,90 404,90 399,85 " style="fill:#d8a715; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calU14&lt;/b&gt;&lt;br&gt;CalU14&lt;br&gt;Location: 45471 - 47426&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds8876_10805&lt;/b&gt;&lt;br&gt;Percentage identity: 59&lt;br&gt;Percentage coverage: 102&lt;br&gt;BLAST bit score: 716&lt;br&gt;E-value: 0.0" locus_tag="AF497482_2_calU14" class="clusterblast-orf" id="dummy-1_h1_4_9"  />
+</g>
+<g id="a1_0010"  >
+<polygon points="418,85 423,80 427,80 427,90 423,90 418,85 " style="fill:#15d846; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calU15&lt;/b&gt;&lt;br&gt;CalU15&lt;br&gt;Location: 47448 - 48416&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with cds10801_11788&lt;/b&gt;&lt;br&gt;Percentage identity: 48&lt;br&gt;Percentage coverage: 96&lt;br&gt;BLAST bit score: 251&lt;br&gt;E-value: 1.51e-83" locus_tag="AF497482_2_calU15" class="clusterblast-orf" id="dummy-1_h1_4_10"  />
+</g>
+<g id="a1_0011"  >
+<polygon points="559,90 566,90 571,85 566,80 559,80 559,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calE9&lt;/b&gt;&lt;br&gt;CalE9&lt;br&gt;Location: 62177 - 63463" locus_tag="AF497482_2_calE9" class="clusterblast-orf" id="dummy-1_h1_4_11"  />
+</g>
+<g id="a1_0012"  >
+<polygon points="768,90 775,90 780,85 775,80 768,80 768,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;AF497482_2_calE10&lt;/b&gt;&lt;br&gt;CalE10&lt;br&gt;Location: 84045 - 85229" locus_tag="AF497482_2_calE10" class="clusterblast-orf" id="dummy-1_h1_4_12"  />
+</g>
+</svg>
