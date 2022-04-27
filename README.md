@@ -1,9 +1,11 @@
 # Título
-1. Análisis de parámetros fisiquímicos en metaloproteasas queratinolíticas
-2. Análisis de actividad queratinolítica en actinobacterias marinas
+Análisis de parámetros fisiquímicos en metaloproteasas queratinolíticas
 
-# Metaloproteasas queratinolíticas
-Esta base de datos colecta información de 18 enzimas queratinolíticas y 18 enzimas no-queratinolíticas, todas pertenecientes a la superfamilia de las metaloproteasas. Entre los datos obtenidos están parámetros como tamaño, sitios de union a metal y activo, peso molecular, punto isoelectrico, residuos con carga positiva y negativa, entre otros. La intención de analizar estos datos es identificar tendencias o patrones en dichos parametros que permitan predecir la actividad queratinolítica en metaloproteasas.
+# Autor
+Eduardo Sanchez Carvajal
 
-# Actividad queratinolítica bacteriana
-Esta base datos contiene información sobre los ensayos de actividad queratinolítica y proteolítica realizados a partir de aislados de actinobacterias marinas sobre plumas de pavo.
+# Descripción del problema a resolver
+Diversas bacterias han sido reconocidas como importantes productoras de queratinasas, enzimas relevantes para el tratamiento y revalorización de los desechos de plumas generados por la industria avícola. Sin embargo, el mecanismo de degradación de la queratina por parte de estas aún no ha sido completamente dilucidado. Dado lo anterior, tampoco se han descrito a la fecha patrones moleculares que faciliten la identificación de enzimas con actividad queratinolítica, los cuales puedan facilitar su bioprospección. La intención de analizar estos datos es identificar tendencias o patrones en dichos parametros que permitan predecir la actividad queratinolítica en metaloproteasas.
+
+# Variables de estudio, factores a analizar y número total de observaciones
+Esta base de datos colecta un total de 396 observaciones sobre de sitios de unión a metales y activos, peso molecular, punto isoeléctrico, residuos con carga positiva y negativa, coeficiente de extinción, índice de inestabilidad, índice alifático y Gran Promedio de Hidropatía (GRAVY) como variables de estudio, correspondientes a 36 metaloproteasas, clasificadas mediante los factores de actividad queratinolítica y familia de proteasas a la que pertenecen.
