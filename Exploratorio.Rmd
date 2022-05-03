@@ -18,17 +18,89 @@ library(ggplot2) # Para hacer gráficos
 library(tidyr) # Para manipular datos
 ```
 
+### Análisis Exploratorio de Datos de Metaloproteasas
+
 ## Importación de datos
 
 A partir del set de datos _MetalloproteasesDB_, se crea un objeto denominado Datos_Metaloproteasas usando la función read_excel() de la librería readxl. Se observan los datos con la función summary() y str().
 
-```{r cars}
-summary(cars)
+```{r}
+Datos_Metaloproteasas <- read_excel("MetalloproteasesDB.xlsx", na = "N/A")
+
+summary(Datos_Metaloproteasas)
+
+str(Datos_Metaloproteasas)
 ```
 
-## Including Plots
+## Transformación de datos
 
-You can also embed plots, for example:
+Del objeto Datos_Metaloproteasas, se transforman las variables ID, Acc_No, Family, Keratinolytic_activity, Activity_type, Active_site y Metal_binding_site a factor usando la función as.factor(). Posteriormente, se explora nuevamente el set de datos usando la función summary() para verificar.
+
+```{r}
+Datos_Metaloproteasas$ID <- as.factor(Datos_Metaloproteasas$ID)
+
+Datos_Metaloproteasas$Acc_No <- as.factor(Datos_Metaloproteasas$Acc_No)
+
+Datos_Metaloproteasas$Family <- as.factor(Datos_Metaloproteasas$Family)
+
+Datos_Metaloproteasas$Keratinolytic_activity <- as.factor(Datos_Metaloproteasas$Keratinolytic_activity)
+
+Datos_Metaloproteasas$Activity_type <- as.factor(Datos_Metaloproteasas$Activity_type)
+
+Datos_Metaloproteasas$Active_site <- as.factor(Datos_Metaloproteasas$Active_site)
+
+Datos_Metaloproteasas$Metal_binding_site <- as.factor(Datos_Metaloproteasas$Metal_binding_site)
+
+summary(Datos_Metaloproteasas)
+```
+
+## Calculo de variables derivadas
+Normalización con respecto a longitud.
+
+## Tabla de frecuencia de los factores
+
+```{r}
+table(Datos_Metaloproteasas$Keratinolytic_activity)
+
+```
+
+
+## Variación de las variables de estudio
+
+A partir del set de datos se elabora una gráfica para la variable continua MW_Da. Use el comando ggplot(), el argumento aes() para seleccionar los datos, y la variable respuesta MW_Da.
+
+# MW_Da
+```{r}
+ggplot(Datos_Metaloproteasas, aes(x = MW_Da, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3)
+```
+# pI
+
+```{r}
+ggplot(Datos_Metaloproteasas, aes(x = pI, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3)
+```
+# Negatively_charged_AA
+
+```{r}
+ggplot(Datos_Metaloproteasas, aes(x = Negatively_charged_AA, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3)
+```
+
+# Positively_charged_AA
+
+```{r}
+ggplot(Datos_Metaloproteasas, aes(x = Positively_charged_AA, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3)
+```
+# Extinction_coefficient
+
+```{r}
+ggplot(Datos_Metaloproteasas, aes(x = , color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3)
+```
+
+
 
 ```{r pressure, echo=FALSE}
 plot(pressure)

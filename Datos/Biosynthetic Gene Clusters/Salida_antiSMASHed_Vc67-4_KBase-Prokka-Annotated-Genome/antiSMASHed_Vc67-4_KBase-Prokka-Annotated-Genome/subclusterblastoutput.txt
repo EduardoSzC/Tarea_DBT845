@@ -1,5 +1,0 @@
-input|c1|1671-3063|+|cds1671_3063|Diaminobutyrate--2-oxoglutarate	EU255259|c1|6389-7717|+|EU255259_1_spcS1|SpcS1|ABW87801	34.498	458	251	12	15	450	11	441	5.60e-57	190
-input|c1|1671-3063|+|cds1671_3063|Diaminobutyrate--2-oxoglutarate	DQ164098|c1|8478-9752|-|DQ164098_1_valM|aminotransferase|ABA41503	33.178	428	239	10	38	446	21	420	1.46e-56	188
-input|c1|1671-3063|+|cds1671_3063|Diaminobutyrate--2-oxoglutarate	HQ287563|c2|27635-28912|+|HQ287563_2_npsQ|aminotransferase|ADY76679	30.445	427	247	12	41	449	27	421	3.06e-35	130
-input|c1|1671-3063|+|cds1671_3063|Diaminobutyrate--2-oxoglutarate	AF040570|c2|87270-88568|-|AF040570_2_orf9|dNTP-hexose_aminotransferase|AAC01733	32.353	374	194	16	37	373	21	372	5.03e-27	107
-input|c1|1671-3063|+|cds1671_3063|Diaminobutyrate--2-oxoglutarate	AB360380|c1|22923-24233|+|AB360380_1_kasC|putative_dNTP-hexose_aminotransferase|BAF79702	30.091	329	181	11	37	333	15	326	1.83e-18	82.0
