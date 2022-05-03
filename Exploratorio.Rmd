@@ -20,7 +20,7 @@ library(tidyr) # Para manipular datos
 
 ## Importación de datos
 
-A prtir del set de datos _MetalloproteasesDB_ 
+A partir del set de datos _MetalloproteasesDB_, se crea un objeto denominado Datos_Metaloproteasas usando la función read_excel() de la librería readxl. Se observan los datos con la función summary() y str().
 
 ```{r cars}
 summary(cars)
