@@ -2,7 +2,9 @@
 title: "Proyecto personal análisis de datos"
 author: "Eduardo Sánchez"
 date: "`r Sys.Date()`"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -18,11 +20,11 @@ library(ggplot2) # Para hacer gráficos
 library(tidyr) # Para manipular datos
 ```
 
-### Análisis Exploratorio de Datos de Metaloproteasas
+## Análisis Exploratorio de Datos de Metaloproteasas
 
-## Importación de datos
+### Importación de datos
 
-A partir del set de datos _MetalloproteasesDB_, se crea un objeto denominado Datos_Metaloproteasas usando la función read_excel() de la librería readxl. Se observan los datos con la función summary() y str().
+A partir del set de datos _MetalloproteasesDB_, se crea el objeto denominado _Datos_Metaloproteasas_, especificando que para los valores faltantes se emplea la nomenclatura N/A, y se observan los datos contenidos en este.
 
 ```{r}
 Datos_Metaloproteasas <- read_excel("MetalloproteasesDB.xlsx", na = "N/A")
@@ -32,9 +34,9 @@ summary(Datos_Metaloproteasas)
 str(Datos_Metaloproteasas)
 ```
 
-## Transformación de datos
+### Transformación de datos
 
-Del objeto Datos_Metaloproteasas, se transforman las variables ID, Acc_No, Family, Keratinolytic_activity, Activity_type, Active_site y Metal_binding_site a factor usando la función as.factor(). Posteriormente, se explora nuevamente el set de datos usando la función summary() para verificar.
+Del objeto _Datos_Metaloproteasas_, se transforman las variables _ID_, _Acc_No_, _Family_, _Keratinolytic_activity_, _Activity_type_, _Active_site_ y _Metal_binding_site_ a factores. Posteriormente, se explora nuevamente el set de datos para verificar.
 
 ```{r}
 Datos_Metaloproteasas$ID <- as.factor(Datos_Metaloproteasas$ID)
@@ -53,57 +55,88 @@ Datos_Metaloproteasas$Metal_binding_site <- as.factor(Datos_Metaloproteasas$Meta
 
 summary(Datos_Metaloproteasas)
 ```
+A partir de esta transformación y su posterior verificación, logra identificarse que hay un dato faltante tanto para _Active_site_ como para _Metal_binding_site_.
 
-## Calculo de variables derivadas
-Normalización con respecto a longitud.
+### Normalización de datos
 
-## Tabla de frecuencia de los factores
+Con el fin de minimizar la influencia de la longitud de la secuencia aminoacídica (_Lenght_) en las variables _Negative_AA_ y _Positive_AA_, se llevó a cabo la normalización de dichos parámetros mediante el cálculo de las variables derivadas _Negativity_ y _Positivity_ expresadas en proporciones.
+#Cómo agregar al set de datos?
 
 ```{r}
+
+Datos_Metaloproteasas %>% select(Length, Negative_AA) %>% 
+  mutate(Negativity = Negative_AA/Length)
+
+Datos_Metaloproteasas %>% select(Length, Positive_AA) %>% 
+  mutate(Positivity = Positive_AA/Length)
+
+```
+### Balance de datos
+Con el fin de identificar si los datos están balanceados o no entre tratamientos, se crearon tablas de frecuencia para estos, las cuales se muestran a continuación:
+
+
+```{r}
+
+#Knitrkabletable?
+#table(tidy_vacunas$Group,tidy_vacunas$Week)
+
+#b) Filtrar datos por un criterio de clasificación
+#tidy_vacunas %>% filter(Group == "Vaccinated")
+
+#c) Filtrar datos por dos criterios de clasificación
+#tidy_vacunas %>% filter(Group == "Vaccinated") %>% filter(Week == 24)
+
+#d) Calcular medidas resumen
+#tidy_vacunas %>% filter(Group == "No-vaccinated") %>% summarize(mean(`IFN response`))
+
+#Del conjunto de datos tidy_vacunas seleccione el grupo No-vaccinated y calcule para la variable IFN response el número de datos n(), el promedio mean(), la mediana median(), el valor mínimo min(), máximo max() y la desviación estándar sd().
+#tidy_vacunas %>% filter(Group == "No-vaccinated") %>% summarize(n(), mean(`IFN response`),median(`IFN response`), min(`IFN response`), max(`IFN response`), sd(`IFN response`))
+
+#cambie los títulos de cada columna agregando al código anterior un nuevo nombre entre comillas. Siga este ejemplo para la primera columna summarize(“N” = n() y complete para las columnas restantes.
+#tidy_vacunas %>% filter(Group == "No-vaccinated") %>% summarize("N" = n(), "Mean"= mean(`IFN response`), "Median"= median(`IFN response`), "Minimum" = min(`IFN response`), "Maximum" = max(`IFN response`), "Standard Deviation" = sd(`IFN response`))
+
+#Finalmente, para publicar una tabla resumen de forma profesional debemos crear un objeto llamado Table, almacenar nuestra última tabla resumen en el y luego imprimirla con el comando knitr::kable() de la librería knitr.
+#Table <- tidy_vacunas %>% filter(Group == "No-vaccinated") %>% summarize("N" = n(), "Mean"= mean(`IFN response`), "Median"= median(`IFN response`), "Minimum" = min(`IFN response`), "Maximum" = max(`IFN response`), "Standard Deviation" = sd(`IFN response`))
+
+#knitr::kable(Table, caption = "Tabla 1. Resumen de respuesta de IFN en animales no vacunados.")
+
 table(Datos_Metaloproteasas$Keratinolytic_activity)
 
 ```
 
 
-## Variación de las variables de estudio
+### Variación de las variables de estudio
 
-A partir del set de datos se elabora una gráfica para la variable continua MW_Da. Use el comando ggplot(), el argumento aes() para seleccionar los datos, y la variable respuesta MW_Da.
+A partir del set de datos se obtienen los histogramas correspondientes para analizar la variación de cada una de las variables de estudio.
 
-# MW_Da
+#### Peso Molecular
 ```{r}
-ggplot(Datos_Metaloproteasas, aes(x = MW_Da, color = Keratinolytic_activity)) +
+ggplot(Datos_Metaloproteasas, aes(x = Mol_Weight, color = Keratinolytic_activity)) +
   geom_histogram(position = "identity", bins = 8, alpha = 0.3)
 ```
-# pI
+#### Punto Isoeléctrico
 
 ```{r}
 ggplot(Datos_Metaloproteasas, aes(x = pI, color = Keratinolytic_activity)) +
   geom_histogram(position = "identity", bins = 8, alpha = 0.3)
 ```
-# Negatively_charged_AA
+#### Negatividad
 
 ```{r}
-ggplot(Datos_Metaloproteasas, aes(x = Negatively_charged_AA, color = Keratinolytic_activity)) +
+ggplot(Datos_Metaloproteasas, aes(x = Negativity, color = Keratinolytic_activity)) +
   geom_histogram(position = "identity", bins = 8, alpha = 0.3)
 ```
 
-# Positively_charged_AA
+#### Positividad
 
 ```{r}
-ggplot(Datos_Metaloproteasas, aes(x = Positively_charged_AA, color = Keratinolytic_activity)) +
+ggplot(Datos_Metaloproteasas, aes(x = Positivity, color = Keratinolytic_activity)) +
   geom_histogram(position = "identity", bins = 8, alpha = 0.3)
 ```
-# Extinction_coefficient
+#### Coeficiente de extinción
 
 ```{r}
-ggplot(Datos_Metaloproteasas, aes(x = , color = Keratinolytic_activity)) +
+ggplot(Datos_Metaloproteasas, aes(x = Extinction_coefficient , color = Keratinolytic_activity)) +
   geom_histogram(position = "identity", bins = 8, alpha = 0.3)
 ```
 
-
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
