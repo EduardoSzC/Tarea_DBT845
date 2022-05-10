@@ -59,80 +59,53 @@ A partir de esta transformación y su posterior verificación, logra identificar
 
 ### Normalización de datos
 
-Con el fin de minimizar la influencia de la longitud de la secuencia aminoacídica (_Lenght_) en las variables _Negative_AA_ y _Positive_AA_, se llevó a cabo la normalización de dichos parámetros mediante el cálculo de las variables derivadas _Negativity_ y _Positivity_ expresadas en proporciones.
-#Cómo agregar al set de datos?
+Con el fin de minimizar la influencia de la longitud de la secuencia aminoacídica (_Lenght_) en las variables _Negative_AA_ y _Positive_AA_, se llevó a cabo la normalización de dichos parámetros mediante el cálculo de las variables derivadas _Negativity_ y _Positivity_ expresadas en proporciones, y se creo el nuevo objeto _Datos_Metaloproteasas_Norm_, que inclute dichas variables.
 
 ```{r}
 
-Datos_Metaloproteasas %>% select(Length, Negative_AA) %>% 
-  mutate(Negativity = Negative_AA/Length)
-
-Datos_Metaloproteasas %>% select(Length, Positive_AA) %>% 
+Datos_Metaloproteasas_Norm <- Datos_Metaloproteasas %>% mutate(Negativity = Negative_AA/Length)%>% 
   mutate(Positivity = Positive_AA/Length)
 
 ```
+
 ### Balance de datos
 Con el fin de identificar si los datos están balanceados o no entre tratamientos, se crearon tablas de frecuencia para estos, las cuales se muestran a continuación:
 
 
 ```{r}
 
-#Knitrkabletable?
-#table(tidy_vacunas$Group,tidy_vacunas$Week)
+Tabla_queratinolisis <- table(Datos_Metaloproteasas$Keratinolytic_activity)
+knitr::kable(Tabla_queratinolisis, col.names = c ("Queratinolisis", "Frecuencia"), caption = "Tabla 1. Frecuencias de enzimas segun el factor de actividad queratinolítica")
 
-#b) Filtrar datos por un criterio de clasificación
-#tidy_vacunas %>% filter(Group == "Vaccinated")
-
-#c) Filtrar datos por dos criterios de clasificación
-#tidy_vacunas %>% filter(Group == "Vaccinated") %>% filter(Week == 24)
-
-#d) Calcular medidas resumen
-#tidy_vacunas %>% filter(Group == "No-vaccinated") %>% summarize(mean(`IFN response`))
-
-#Del conjunto de datos tidy_vacunas seleccione el grupo No-vaccinated y calcule para la variable IFN response el número de datos n(), el promedio mean(), la mediana median(), el valor mínimo min(), máximo max() y la desviación estándar sd().
-#tidy_vacunas %>% filter(Group == "No-vaccinated") %>% summarize(n(), mean(`IFN response`),median(`IFN response`), min(`IFN response`), max(`IFN response`), sd(`IFN response`))
-
-#cambie los títulos de cada columna agregando al código anterior un nuevo nombre entre comillas. Siga este ejemplo para la primera columna summarize(“N” = n() y complete para las columnas restantes.
-#tidy_vacunas %>% filter(Group == "No-vaccinated") %>% summarize("N" = n(), "Mean"= mean(`IFN response`), "Median"= median(`IFN response`), "Minimum" = min(`IFN response`), "Maximum" = max(`IFN response`), "Standard Deviation" = sd(`IFN response`))
-
-#Finalmente, para publicar una tabla resumen de forma profesional debemos crear un objeto llamado Table, almacenar nuestra última tabla resumen en el y luego imprimirla con el comando knitr::kable() de la librería knitr.
-#Table <- tidy_vacunas %>% filter(Group == "No-vaccinated") %>% summarize("N" = n(), "Mean"= mean(`IFN response`), "Median"= median(`IFN response`), "Minimum" = min(`IFN response`), "Maximum" = max(`IFN response`), "Standard Deviation" = sd(`IFN response`))
-
-#knitr::kable(Table, caption = "Tabla 1. Resumen de respuesta de IFN en animales no vacunados.")
-
-table(Datos_Metaloproteasas$Keratinolytic_activity)
+Tabla_Familias <- table(Datos_Metaloproteasas$Keratinolytic_activity, Datos_Metaloproteasas$Family)
+knitr::kable(Tabla_Familias, caption = "Tabla 2. Frecuencias de enzimas por familia de proteasa de acuerdo con clasificación MEROPS")
 
 ```
 
+Se puede observar que los datos se encuentran balanceados tanto respecto a actividad queratinolítica, como a miembros con y sin actividad queratinolítica por cada familia. Cabe destacar que los datos no están balanceados por familia, debido a que para determinadas familias se han descrito una mayor cantidad de queratinasas que para otras. 
 
 ### Variación de las variables de estudio
 
 A partir del set de datos se obtienen los histogramas correspondientes para analizar la variación de cada una de las variables de estudio.
 
-#### Peso Molecular
-```{r}
-ggplot(Datos_Metaloproteasas, aes(x = Mol_Weight, color = Keratinolytic_activity)) +
-  geom_histogram(position = "identity", bins = 8, alpha = 0.3)
-```
-#### Punto Isoeléctrico
+#### Peso Molecular, Punto Isoeléctrico, Positividad y Negatividad
 
 ```{r}
-ggplot(Datos_Metaloproteasas, aes(x = pI, color = Keratinolytic_activity)) +
-  geom_histogram(position = "identity", bins = 8, alpha = 0.3)
-```
-#### Negatividad
 
-```{r}
-ggplot(Datos_Metaloproteasas, aes(x = Negativity, color = Keratinolytic_activity)) +
-  geom_histogram(position = "identity", bins = 8, alpha = 0.3)
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Mol_Weight, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Peso Molecular", y= "Recuento")
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = pI, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Punto Isoelectrico", y= "Recuento")
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Positivity, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Positividad", y= "Recuento")
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Negativity, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Negatividad", y= "Recuento")
+
 ```
 
-#### Positividad
-
-```{r}
-ggplot(Datos_Metaloproteasas, aes(x = Positivity, color = Keratinolytic_activity)) +
-  geom_histogram(position = "identity", bins = 8, alpha = 0.3)
-```
 #### Coeficiente de extinción
 
 ```{r}
