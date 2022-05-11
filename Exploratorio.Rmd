@@ -82,34 +82,106 @@ knitr::kable(Tabla_Familias, caption = "Tabla 2. Frecuencias de enzimas por fami
 
 ```
 
-Se puede observar que los datos se encuentran balanceados tanto respecto a actividad queratinolítica, como a miembros con y sin actividad queratinolítica por cada familia. Cabe destacar que los datos no están balanceados por familia, debido a que para determinadas familias se han descrito una mayor cantidad de queratinasas que para otras. 
+Se puede observar que los datos se encuentran balanceados tanto respecto a actividad queratinolítica, como a miembros con y sin actividad queratinolítica por cada familia. Cabe destacar que los datos no están balanceados por familia, debido a que para determinadas familias se han descrito una mayor cantidad de queratinasas que para otras.
+
+***
 
 ### Variación de las variables de estudio
 
 A partir del set de datos se obtienen los histogramas correspondientes para analizar la variación de cada una de las variables de estudio.
 
-#### Peso Molecular, Punto Isoeléctrico, Positividad y Negatividad
+
+##### Peso Molecular
+
+El siguiente histograma de obtuvo a partir de los datos correspondientes al peso molecular de las metaloproteasas.
 
 ```{r}
 
 ggplot(Datos_Metaloproteasas_Norm, aes(x = Mol_Weight, color = Keratinolytic_activity)) +
   geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Peso Molecular", y= "Recuento")
 
+```
+
+
+##### Punto Isoeléctrico
+
+El siguiente histograma de obtuvo a partir de los datos correspondientes al Punto Isoeléctrico de las metaloproteasas.
+
+```{r}
+
 ggplot(Datos_Metaloproteasas_Norm, aes(x = pI, color = Keratinolytic_activity)) +
   geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Punto Isoelectrico", y= "Recuento")
 
+```
+
+
+##### Positividad
+
+El siguiente histograma de obtuvo a partir de los datos correspondientes a la Positividad de las metaloproteasas.
+
+```{r}
+
 ggplot(Datos_Metaloproteasas_Norm, aes(x = Positivity, color = Keratinolytic_activity)) +
   geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Positividad", y= "Recuento")
+
+```
+
+
+##### Negatividad
+
+El siguiente histograma de obtuvo a partir de los datos correspondientes a la Negatividad de las metaloproteasas.
+
+```{r}
 
 ggplot(Datos_Metaloproteasas_Norm, aes(x = Negativity, color = Keratinolytic_activity)) +
   geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Negatividad", y= "Recuento")
 
 ```
 
-#### Coeficiente de extinción
+##### Coeficiente de extinción
+
+El siguiente histograma de obtuvo a partir de los datos correspondientes al Coeficiente de extinción de las metaloproteasas.
 
 ```{r}
-ggplot(Datos_Metaloproteasas, aes(x = Extinction_coefficient , color = Keratinolytic_activity)) +
-  geom_histogram(position = "identity", bins = 8, alpha = 0.3)
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Extinction_coefficient, color = Keratinolytic_activity)) + geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Coeficiente de extincion", y= "Recuento")
+
 ```
 
+### Análisis de relación entre variables cuantitativas y factores
+
+#### Correlaciones
+Los siguientes gráficos muestran la correlación entre las diversas variables.
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Extinction_coefficient, y = GRAVY)) + geom_point() + geom_smooth(method=lm, se=FALSE) + labs(title = "C. de extinción vs GRAVY", x= "Coeficiente de extinción", y= "GRAVY")
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Negativity, y = Instability_index)) + geom_point() + geom_smooth(method=lm, se=FALSE) + labs(title = "Negatividad vs Índice de inestabilidad", x= "Negatividad", y= "Índice de inestabilidad")
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = pI, y = Aliphatic_index)) + geom_point() + geom_smooth(method=lm, se=FALSE) + labs(title = "pI vs Índice Alifático", x= "pI", y= "Índice Alifático")
+
+```
+
+#### Tamaño de los efectos
+Los siguientes gráficos muestran el tamaño de los efectos para diversas variables.
+
+```{r}
+plot.design(Datos_Metaloproteasas_Norm$pI ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity, Datos_Metaloproteasas_Norm$Instability_index, xlab="Factores", ylab="pI", col=3:6)
+```
+
+
+#### Diferencias entre queratinolíticas y no-queratinolíticas
+
+```{r}
+
+boxplot(Datos_Metaloproteasas_Norm$pI ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity, main = "Punto Isoeléctrico vs Actividad queratinolítica", ylab = "pI", xlab = "Actividad queratinolítica")
+
+boxplot(Datos_Metaloproteasas_Norm$Instability_index ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity, main = "Indice de inestabilidad vs Actividad queratinolítica", ylab = "Indice de inestabilidad", xlab = "Actividad queratinolítica")
+
+boxplot(Datos_Metaloproteasas_Norm$Extinction_coefficient ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity, main = "Coeficiente de extinción vs Actividad queratinolítica", ylab = "Coeficiente de extinción", xlab = "Actividad queratinolítica")
+
+```
+
+
+#### Diferencias entre queratinolíticas y no-queratinolíticas
