@@ -3,8 +3,8 @@ title: "Proyecto personal análisis de datos"
 author: "Eduardo Sánchez"
 date: "`r Sys.Date()`"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
