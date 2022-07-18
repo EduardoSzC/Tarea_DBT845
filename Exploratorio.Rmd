@@ -3,14 +3,22 @@ title: "Proyecto personal análisis de datos"
 author: "Eduardo Sánchez"
 date: "`r Sys.Date()`"
 output:
-  html_document: default
-  pdf_document: default
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
-# Habilita librerías
+library(yaml)
+
+library(rmarkdown)
+
+library(knitr)
+
 library(readxl) # Para importar datos a R
 
 library(dplyr) # Para manipular datos
@@ -18,6 +26,7 @@ library(dplyr) # Para manipular datos
 library(ggplot2) # Para hacer gráficos
 
 library(tidyr) # Para manipular datos
+
 ```
 
 ## Análisis Exploratorio de Datos de Metaloproteasas
@@ -55,11 +64,11 @@ Datos_Metaloproteasas$Metal_binding_site <- as.factor(Datos_Metaloproteasas$Meta
 
 summary(Datos_Metaloproteasas)
 ```
-A partir de esta transformación y su posterior verificación, logra identificarse que hay un dato faltante tanto para _Active_site_ como para _Metal_binding_site_.
+A partir de esta transformación y su posterior verificación, logra identificarse que hay un **dato faltante** tanto para _Active_site_ como para _Metal_binding_site_.
 
 ### Normalización de datos
 
-Con el fin de minimizar la influencia de la longitud de la secuencia aminoacídica (_Lenght_) en las variables _Negative_AA_ y _Positive_AA_, se llevó a cabo la normalización de dichos parámetros mediante el cálculo de las variables derivadas _Negativity_ y _Positivity_ expresadas en proporciones, y se creo el nuevo objeto _Datos_Metaloproteasas_Norm_, que inclute dichas variables.
+Con el fin de minimizar la influencia de la longitud de la secuencia aminoacídica (_Lenght_) en las variables _Negative_AA_ y _Positive_AA_, se llevó a cabo la normalización de dichos parámetros mediante el cálculo de las variables derivadas _Negativity_ y _Positivity_ expresadas en proporciones, y se creo el nuevo objeto _Datos_Metaloproteasas_Norm_, que incluye dichas variables.
 
 ```{r}
 
@@ -91,7 +100,7 @@ Se puede observar que los datos se encuentran balanceados tanto respecto a activ
 A partir del set de datos se obtienen los histogramas correspondientes para analizar la variación de cada una de las variables de estudio.
 
 
-##### Peso Molecular
+##### **Peso Molecular**
 
 El siguiente histograma de obtuvo a partir de los datos correspondientes al peso molecular de las metaloproteasas.
 
@@ -103,7 +112,7 @@ ggplot(Datos_Metaloproteasas_Norm, aes(x = Mol_Weight, color = Keratinolytic_act
 ```
 
 
-##### Punto Isoeléctrico
+##### **Punto Isoeléctrico**
 
 El siguiente histograma de obtuvo a partir de los datos correspondientes al Punto Isoeléctrico de las metaloproteasas.
 
@@ -115,7 +124,7 @@ ggplot(Datos_Metaloproteasas_Norm, aes(x = pI, color = Keratinolytic_activity)) 
 ```
 
 
-##### Positividad
+##### **Positividad**
 
 El siguiente histograma de obtuvo a partir de los datos correspondientes a la Positividad de las metaloproteasas.
 
@@ -127,7 +136,7 @@ ggplot(Datos_Metaloproteasas_Norm, aes(x = Positivity, color = Keratinolytic_act
 ```
 
 
-##### Negatividad
+##### **Negatividad**
 
 El siguiente histograma de obtuvo a partir de los datos correspondientes a la Negatividad de las metaloproteasas.
 
@@ -138,7 +147,7 @@ ggplot(Datos_Metaloproteasas_Norm, aes(x = Negativity, color = Keratinolytic_act
 
 ```
 
-##### Coeficiente de extinción
+##### **Coeficiente de extinción**
 
 El siguiente histograma de obtuvo a partir de los datos correspondientes al Coeficiente de extinción de las metaloproteasas.
 
@@ -150,7 +159,7 @@ ggplot(Datos_Metaloproteasas_Norm, aes(x = Extinction_coefficient, color = Kerat
 
 ### Análisis de relación entre variables cuantitativas y factores
 
-#### Correlaciones
+#### **Correlaciones**
 Los siguientes gráficos muestran la correlación entre las diversas variables.
 
 ```{r}
@@ -163,25 +172,89 @@ ggplot(Datos_Metaloproteasas_Norm, aes(x = pI, y = Aliphatic_index)) + geom_poin
 
 ```
 
-#### Tamaño de los efectos
+Es observable que podría existir una mayor correlación entre Coeficiente de extinción y GRAVY, que entre Negatividad e Indice de inestabilidad, o entre pI o Índice alifático.
+
+#### **Tamaño de los efectos**
 Los siguientes gráficos muestran el tamaño de los efectos para diversas variables.
 
 ```{r}
-plot.design(Datos_Metaloproteasas_Norm$pI ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity, Datos_Metaloproteasas_Norm$Instability_index, xlab="Factores", ylab="pI", col=3:6)
+
+plot.design(Datos_Metaloproteasas_Norm$pI ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity*Datos_Metaloproteasas_Norm$Activity_type, xlab="Factores", ylab="pI", col=3:6)
+
+plot.design(Datos_Metaloproteasas_Norm$Instability_index ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity*Datos_Metaloproteasas_Norm$Activity_type, xlab="Factores", ylab="Índice de Inestabilidad", col=3:6)
+
+plot.design(Datos_Metaloproteasas_Norm$Extinction_coefficient ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity*Datos_Metaloproteasas_Norm$Activity_type, xlab="Factores", ylab="Coeficiente de extinción", col=3:6)
+
 ```
 
 
-#### Diferencias entre queratinolíticas y no-queratinolíticas
+#### **Diferencias entre queratinolíticas y no-queratinolíticas**
 
 ```{r}
 
-boxplot(Datos_Metaloproteasas_Norm$pI ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity, main = "Punto Isoeléctrico vs Actividad queratinolítica", ylab = "pI", xlab = "Actividad queratinolítica")
-
-boxplot(Datos_Metaloproteasas_Norm$Instability_index ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity, main = "Indice de inestabilidad vs Actividad queratinolítica", ylab = "Indice de inestabilidad", xlab = "Actividad queratinolítica")
-
-boxplot(Datos_Metaloproteasas_Norm$Extinction_coefficient ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity, main = "Coeficiente de extinción vs Actividad queratinolítica", ylab = "Coeficiente de extinción", xlab = "Actividad queratinolítica")
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Keratinolytic_activity, y = pI, fill=Keratinolytic_activity)) + geom_boxplot() + labs(title = "Punto Isoeléctrico vs Actividad queratinolítica", x= "Actividad queratinolítica", y= "pI")
 
 ```
 
+```{r}
 
-#### Diferencias entre queratinolíticas y no-queratinolíticas
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Keratinolytic_activity, y = Instability_index, fill=Keratinolytic_activity)) + geom_boxplot() + labs(title = "Indice de inestabilidad vs Actividad queratinolítica", x= "Actividad queratinolítica", y= "Indice de inestabilidad")
+
+```
+
+En este gráfico se puede observar la presencia de dos **valores atípicos** para metaloproteasas queratinolíticas, uno por sobre y otro por debajo del resto de los valores.
+
+```{r}
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Keratinolytic_activity, y = Extinction_coefficient, fill=Keratinolytic_activity)) + geom_boxplot() + labs(title = "Coeficiente de extinción vs Actividad queratinolítica", x= "Actividad queratinolítica", y= "Coeficiente de extinción")
+
+```
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Keratinolytic_activity, y = Positivity, fill=Keratinolytic_activity)) + geom_boxplot() + labs(title = "Indice de inestabilidad vs Actividad queratinolítica", x= "Actividad queratinolítica", y= "Indice de inestabilidad")
+
+```
+
+En este gráfico es obsrvable también la presencia de **valores atípicos** para metalo proteasas queratinolíticas, tres por sobre y dos por debajo del resto d elos valores. 
+
+### Tablas de resumen estadístico-descriptivo por variable y actividad.
+
+```{r}
+KLAct_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(Instability_index), "Mediana"= median(Instability_index), "Min." = min(Instability_index), "Max." = max(Instability_index), "DS" = sd(Instability_index))
+
+names(KLAct_stat)[names(KLAct_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(KLAct_stat, caption = "Tabla 3. Resumen de Indice de inestabilidad respecto de actividad queratinolítica.")
+
+pI_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(pI), "Mediana"= median(pI), "Min." = min(pI), "Max." = max(pI), "DS" = sd(pI))
+
+names(KLAct_stat)[names(KLAct_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(pI_stat, caption = "Tabla 4. Resumen de Punto Isoeléctico respecto de actividad queratinolítica.")
+
+GRAVY_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(GRAVY), "Mediana"= median(GRAVY), "Min." = min(GRAVY), "Max." = max(GRAVY), "DS" = sd(GRAVY))
+
+names(KLAct_stat)[names(KLAct_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(GRAVY_stat, caption = "Tabla 5. Resumen de GRAVY respecto de actividad queratinolítica.")
+
+Neg_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(Negativity), "Mediana"= median(Negativity), "Min." = min(Negativity), "Max." = max(Negativity), "DS" = sd(Negativity))
+
+names(KLAct_stat)[names(KLAct_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(Neg_stat, caption = "Tabla 6. Resumen de Negatividad respecto de actividad queratinolítica.")
+
+Pos_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(Positivity), "Mediana"= median(Positivity), "Min." = min(Positivity), "Max." = max(Positivity), "DS" = sd(Positivity))
+
+names(KLAct_stat)[names(KLAct_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(Pos_stat, caption = "Tabla 7. Resumen de Positividad respecto de actividad queratinolítica.")
+
+AI_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(Aliphatic_index), "Mediana"= median(Aliphatic_index), "Min." = min(Aliphatic_index), "Max." = max(Aliphatic_index), "DS" = sd(Aliphatic_index))
+
+names(KLAct_stat)[names(KLAct_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(AI_stat, caption = "Tabla 8. Resumen de Indice Alifático respecto de actividad queratinolítica.")
+
+```
+
