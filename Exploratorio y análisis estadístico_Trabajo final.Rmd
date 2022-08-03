@@ -1,0 +1,361 @@
+---
+title: "Proyecto personal análisis de datos"
+author: "Eduardo Sánchez"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+
+library(yaml)
+
+library(rmarkdown)
+
+library(knitr)
+
+library(readxl) # Para importar datos a R
+
+library(dplyr) # Para manipular datos
+
+library(ggplot2) # Para hacer gráficos
+
+library(tidyr) # Para manipular datos
+
+library(lmtest) #Para evaluación de supuestos
+
+library(car)
+
+```
+
+## Análisis Exploratorio de Datos de Metaloproteasas
+
+En esta sección, se lleva a cabo un análisis exploratorio de los datos con el fin de investigar su variación y balance, establecer si existe relación entre variables cuantitativas y factores, identificar si existen errores, datos faltantes o valores atípicos, así como aplicar estadística descriptiva para su resumen.
+
+***
+
+### Importación de datos
+
+A partir del set de datos _MetalloproteasesDB_, se crea el objeto denominado _Datos_Metaloproteasas_, especificando que para los valores faltantes se emplea la nomenclatura N/A, y se observan los datos contenidos en este.
+
+```{r}
+Datos_Metaloproteasas <- read_excel("MetalloproteasesDB.xlsx", na = "N/A")
+
+summary(Datos_Metaloproteasas)
+
+str(Datos_Metaloproteasas)
+```
+
+***
+
+### Transformación de datos
+
+Del objeto _Datos_Metaloproteasas_, se transforman las variables _ID_, _Acc_No_, _Family_, _Keratinolytic_activity_, _Activity_type_, _Active_site_ y _Metal_binding_site_ a factores. Posteriormente, se explora nuevamente el set de datos para verificar.
+
+```{r}
+Datos_Metaloproteasas$ID <- as.factor(Datos_Metaloproteasas$ID)
+
+Datos_Metaloproteasas$Acc_No <- as.factor(Datos_Metaloproteasas$Acc_No)
+
+Datos_Metaloproteasas$Family <- as.factor(Datos_Metaloproteasas$Family)
+
+Datos_Metaloproteasas$Keratinolytic_activity <- as.factor(Datos_Metaloproteasas$Keratinolytic_activity)
+
+Datos_Metaloproteasas$Activity_type <- as.factor(Datos_Metaloproteasas$Activity_type)
+
+Datos_Metaloproteasas$Active_site <- as.factor(Datos_Metaloproteasas$Active_site)
+
+Datos_Metaloproteasas$Metal_binding_site <- as.factor(Datos_Metaloproteasas$Metal_binding_site)
+
+summary(Datos_Metaloproteasas)
+```
+A partir de esta transformación y su posterior verificación, logra identificarse que hay un **dato faltante** tanto para _Active_site_ como para _Metal_binding_site_.
+
+***
+
+### Normalización de datos
+
+Con el fin de minimizar la influencia de la longitud de la secuencia aminoacídica (_Lenght_) en las variables _Negative_AA_ y _Positive_AA_, se llevó a cabo la normalización de dichos parámetros mediante el cálculo de las variables derivadas _Negativity_ y _Positivity_ expresadas en proporciones, y se creo el nuevo objeto _Datos_Metaloproteasas_Norm_, que incluye dichas variables.
+
+```{r}
+
+Datos_Metaloproteasas_Norm <- Datos_Metaloproteasas %>% mutate(Negativity = Negative_AA/Length)%>% 
+  mutate(Positivity = Positive_AA/Length)
+
+```
+
+***
+
+### Balance de datos
+Con el fin de identificar si los datos están balanceados o no entre tratamientos, se crearon tablas de frecuencia para estos, las cuales se muestran a continuación:
+
+
+```{r}
+
+Tabla_queratinolisis <- table(Datos_Metaloproteasas$Keratinolytic_activity)
+knitr::kable(Tabla_queratinolisis, col.names = c ("Queratinolisis", "Frecuencia"), caption = "Tabla 1. Frecuencias de enzimas segun el factor de actividad queratinolítica")
+
+Tabla_Familias <- table(Datos_Metaloproteasas$Keratinolytic_activity, Datos_Metaloproteasas$Family)
+knitr::kable(Tabla_Familias, caption = "Tabla 2. Frecuencias de enzimas por familia de proteasa de acuerdo con clasificación MEROPS")
+
+```
+
+Se puede observar que los datos se encuentran balanceados tanto respecto a actividad queratinolítica, como a miembros con y sin actividad queratinolítica por cada familia. Cabe destacar que los datos no están balanceados por familia, debido a que para determinadas familias se han descrito una mayor cantidad de queratinasas que para otras.
+
+***
+
+### Variación de las variables de estudio
+
+A partir del set de datos se obtienen los histogramas correspondientes para analizar la variación de cada una de las variables de estudio.  
+
+
+##### **Peso Molecular**
+
+El siguiente histograma de obtuvo a partir de los datos correspondientes al peso molecular de las metaloproteasas.
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Mol_Weight, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Peso Molecular", y= "Recuento")
+
+```
+
+
+##### **Punto Isoeléctrico**
+
+El siguiente histograma de obtuvo a partir de los datos correspondientes al Punto Isoeléctrico de las metaloproteasas.
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = pI, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Punto Isoelectrico", y= "Recuento")
+
+```
+
+
+##### **Positividad**
+
+El siguiente histograma de obtuvo a partir de los datos correspondientes a la Positividad de las metaloproteasas.
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Positivity, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Positividad", y= "Recuento")
+
+```
+
+
+##### **Negatividad**
+
+El siguiente histograma de obtuvo a partir de los datos correspondientes a la Negatividad de las metaloproteasas.
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Negativity, color = Keratinolytic_activity)) +
+  geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Negatividad", y= "Recuento")
+
+```
+
+##### **Coeficiente de extinción**
+
+El siguiente histograma de obtuvo a partir de los datos correspondientes al Coeficiente de extinción de las metaloproteasas.
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Extinction_coefficient, color = Keratinolytic_activity)) + geom_histogram(position = "identity", bins = 8, alpha = 0.3) + labs(x= "Coeficiente de extincion", y= "Recuento")
+
+```
+
+***
+
+
+### Análisis de relación entre variables cuantitativas y factores
+
+#### **Correlaciones**
+Los siguientes gráficos muestran la correlación entre las diversas variables.
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Extinction_coefficient, y = GRAVY)) + geom_point() + geom_smooth(method=lm, se=FALSE) + labs(title = "C. de extinción vs GRAVY", x= "Coeficiente de extinción", y= "GRAVY")
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Negativity, y = Instability_index)) + geom_point() + geom_smooth(method=lm, se=FALSE) + labs(title = "Negatividad vs Índice de inestabilidad", x= "Negatividad", y= "Índice de inestabilidad")
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = pI, y = Aliphatic_index)) + geom_point() + geom_smooth(method=lm, se=FALSE) + labs(title = "pI vs Índice Alifático", x= "pI", y= "Índice Alifático")
+
+```
+
+Es observable que podría existir una mayor correlación entre Coeficiente de extinción y GRAVY, que entre Negatividad e Indice de inestabilidad, o entre pI o Índice alifático.  
+
+#### **Tamaño de los efectos**
+Los siguientes gráficos muestran el tamaño de los efectos para diversas variables.
+
+```{r}
+
+plot.design(Datos_Metaloproteasas_Norm$pI ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity*Datos_Metaloproteasas_Norm$Activity_type, xlab="Factores", ylab="pI", col=3:6)
+
+plot.design(Datos_Metaloproteasas_Norm$Instability_index ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity*Datos_Metaloproteasas_Norm$Activity_type, xlab="Factores", ylab="Índice de Inestabilidad", col=3:6)
+
+plot.design(Datos_Metaloproteasas_Norm$Extinction_coefficient ~ Datos_Metaloproteasas_Norm$Keratinolytic_activity*Datos_Metaloproteasas_Norm$Activity_type, xlab="Factores", ylab="Coeficiente de extinción", col=3:6)
+
+```
+
+
+#### **Diferencias entre queratinolíticas y no-queratinolíticas**
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Keratinolytic_activity, y = pI, fill=Keratinolytic_activity)) + geom_boxplot() + labs(title = "Punto Isoeléctrico vs Actividad queratinolítica", x= "Actividad queratinolítica", y= "pI")
+
+```
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Keratinolytic_activity, y = Instability_index, fill=Keratinolytic_activity)) + geom_boxplot() + labs(title = "Indice de inestabilidad vs Actividad queratinolítica", x= "Actividad queratinolítica", y= "Indice de inestabilidad")
+
+```
+
+En este gráfico se puede observar la presencia de dos **valores atípicos** para metaloproteasas queratinolíticas, uno por sobre y otro por debajo del resto de los valores.
+
+```{r}
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Keratinolytic_activity, y = Extinction_coefficient, fill=Keratinolytic_activity)) + geom_boxplot() + labs(title = "Coeficiente de extinción vs Actividad queratinolítica", x= "Actividad queratinolítica", y= "Coeficiente de extinción")
+
+```
+
+```{r}
+
+ggplot(Datos_Metaloproteasas_Norm, aes(x = Keratinolytic_activity, y = Positivity, fill=Keratinolytic_activity)) + geom_boxplot() + labs(title = "Positividad vs Actividad queratinolítica", x= "Actividad queratinolítica", y= "Positividad")
+
+```
+
+En este gráfico es obsrvable también la presencia de **valores atípicos** para metalo proteasas queratinolíticas, tres por sobre y dos por debajo del resto de los valores. 
+
+***
+
+### Tablas de resumen estadístico-descriptivo por variable y actividad.
+
+```{r}
+KLAct_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(Instability_index), "Mediana"= median(Instability_index), "Min." = min(Instability_index), "Max." = max(Instability_index), "DS" = sd(Instability_index))
+
+names(KLAct_stat)[names(KLAct_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(KLAct_stat, caption = "Tabla 3. Resumen de Indice de inestabilidad respecto de actividad queratinolítica.")
+
+pI_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(pI), "Mediana"= median(pI), "Min." = min(pI), "Max." = max(pI), "DS" = sd(pI))
+
+names(pI_stat)[names(pI_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(pI_stat, caption = "Tabla 4. Resumen de Punto Isoeléctico respecto de actividad queratinolítica.")
+
+GRAVY_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(GRAVY), "Mediana"= median(GRAVY), "Min." = min(GRAVY), "Max." = max(GRAVY), "DS" = sd(GRAVY))
+
+names(GRAVY_stat)[names(GRAVY_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(GRAVY_stat, caption = "Tabla 5. Resumen de GRAVY respecto de actividad queratinolítica.")
+
+Neg_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(Negativity), "Mediana"= median(Negativity), "Min." = min(Negativity), "Max." = max(Negativity), "DS" = sd(Negativity))
+
+names(Neg_stat)[names(Neg_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(Neg_stat, caption = "Tabla 6. Resumen de Negatividad respecto de actividad queratinolítica.")
+
+Pos_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(Positivity), "Mediana"= median(Positivity), "Min." = min(Positivity), "Max." = max(Positivity), "DS" = sd(Positivity))
+
+names(Pos_stat)[names(Pos_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(Pos_stat, caption = "Tabla 7. Resumen de Positividad respecto de actividad queratinolítica.")
+
+AI_stat <- Datos_Metaloproteasas_Norm %>% group_by(Keratinolytic_activity) %>% summarise("N" = n(), "Promedio"= mean(Aliphatic_index), "Mediana"= median(Aliphatic_index), "Min." = min(Aliphatic_index), "Max." = max(Aliphatic_index), "DS" = sd(Aliphatic_index))
+
+names(AI_stat)[names(AI_stat) == 'Keratinolytic_activity'] <- 'Actividad Queratinolítica'
+
+knitr::kable(AI_stat, caption = "Tabla 8. Resumen de Indice Alifático respecto de actividad queratinolítica.")
+
+```
+***
+
+## Análisis Estadístico
+ 
+En esta sección, a partir de los resultados obtenidos del análisis exploratorio previo, se selecciona el indice de inestabilidad como variable de estudio, se propone una hipótesis y realiza un análisis estadístico de los datos para ponerla a prueba, evaluando los supuestos correspondientes a la prueba empleada. Finalmente, los resultados obtenidos son presentados e interpretados para realizar una conclusión.
+
+*** 
+### Propuesta de hipótesis
+
+A partir del análisis exploratorio de datos, se proponen las siguientes hipótesis estadísticas:
+
+* *Hipótesis nula (H0): El indice de inestabilidad es igual entre metaloproteasas queratinolíticas y no-queratinolíticas.*
+
+* *Hipótesis alternativa (HA): El indice de inestabilidad es distinto entre metaloproteasas queratinolíticas y no-queratinolíticas.*
+
+***
+### Evaluación de supuestos
+Con el fin de seleccionar la prueba estadística apropiada, se realiza la evaluación de los siguientes supuestos:  
+
+#### **Independencia**
+
+Se evalúa empleando la prueba de Durbin-Watson, que considera las siguientes hipótesis:
+
+* H0: No hay correlación entre los residuos.
+
+* HA: Los residuos están autocorrelacionados.
+
+```{r}
+
+dwtest(Instability_index ~ Keratinolytic_activity, data = Datos_Metaloproteasas_Norm, alternative = c("two.sided"), iterations = 15)
+
+```
+Dados estos resultados, considerando que el valor de p es inferior a 0,05, podemos rechazar la hipótesis nula y concluir que los residuos están autocorrelacionados.  
+
+
+
+#### **Homocedasticidad**
+
+Se evalúa empleando la prueba de Levene, que considera las siguientes hipótesis:
+
+* H0: La varianza entre los grupos es igual. 
+
+* HA: La varianza entre los grupos no es igual.
+
+```{r}
+
+leveneTest(Instability_index ~ Keratinolytic_activity, data =  Datos_Metaloproteasas_Norm, center = "median")
+
+```
+Dados estos resultados, considerando que el valor de p es superior a 0,05, no es posible rechazar la hipótesis nula y por lo tanto se concluye que la varianza entre los grupos es igual.  
+
+
+#### **Normalidad**
+
+Se evalúa empleando la prueba de Shapiro-Wilk, que considera las siguientes hipótesis:
+
+* H0: La distribución es normal. 
+
+* HA: La distribución no es normal.
+
+```{r}
+
+lm.aov <- lm(Instability_index ~ Keratinolytic_activity, data =  Datos_Metaloproteasas_Norm)
+aov_residuals <- residuals(object = lm.aov)
+shapiro.test(x = aov_residuals)
+
+```
+Dados estos resultados, considerando que el valor de p es superior a 0,05, no es posible rechazar la hipótesis nula y por lo tanto podemos suponer que los datos de la muestra provienen de una población que se distribuye normalmente.
+
+***
+### Prueba de hipótesis
+
+Considerando que, de acuerdo con los resultados de evaluación de supuestos, no existe independencia entre las muestras, hay igualdad de varianza y los datos provienen de una población que se distribuye normalmente, se determina realizar una prueba T pareada.
+
+```{r}
+
+t.test(Instability_index ~ Keratinolytic_activity, data = Datos_Metaloproteasas_Norm, alternative = c("two.sided"), paired = T, var.equal = T)
+
+```
+***
+### Interpretación de resultados y conclusiones
+
+Dados estos resultados, considerando que el valor de p es superior a 0,05, no es posible rechazar la hipótesis nula y por lo tanto se concluye que el indice de inestabilidad es igual entre metaloproteasas queratinolíticas y no-queratinolíticas.
